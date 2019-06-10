@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "Camera/CameraComponent.h"
 #include "MyPawn.generated.h"
 
 UCLASS()
@@ -35,6 +36,8 @@ public:
 	void StartGrowing();
 	void StopGrowing();
 	void GrowBoost();
+
+	UCameraComponent* Camera;
 
 	//Input variables
 	FVector CurrentVelocity;

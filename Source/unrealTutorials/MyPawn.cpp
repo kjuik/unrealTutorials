@@ -3,7 +3,6 @@
 #include "MyPawn.h"
 #include "Classes/Components/InputComponent.h"
 #include "Classes/Components/StaticMeshComponent.h"
-#include "Camera/CameraComponent.h"
 
 // Sets default values
 AMyPawn::AMyPawn()
@@ -18,13 +17,13 @@ AMyPawn::AMyPawn()
 	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
 
 	// Create a camera and a visible object
-	UCameraComponent* OurCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("OurCamera"));
+	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("OurCamera"));
 	Visuals = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("OurVisibleComponent"));
 
 	// Attach our camera and visible object to our root component. Offset and rotate the camera.
-	OurCamera->SetupAttachment(RootComponent);
-	OurCamera->SetRelativeLocation(FVector(-250.0f, 0.0f, 250.0f));
-	OurCamera->SetRelativeRotation(FRotator(-45.0f, 0.0f, 0.0f));
+	Camera->SetupAttachment(RootComponent);
+	Camera->SetRelativeLocation(FVector(-250.0f, 0.0f, 250.0f));
+	Camera->SetRelativeRotation(FRotator(-45.0f, 0.0f, 0.0f));
 
 	Visuals->SetupAttachment(RootComponent);
 }
@@ -54,8 +53,11 @@ void AMyPawn::Tick(float DeltaTime)
 			CurrentScale -= (DeltaTime * 0.5f);
 		}
 		// Make sure we never drop below our starting size, or increase past double size.
-		CurrentScale = FMath::Clamp(CurrentScale, 1.0f, 2.0f);
+		CurrentScale = FMath::Clamp(CurrentScale, 1.0f, 20.0f);
+		Camera->SetRelativeLocation(FVector(-250.0f, 0.0f, 250.0f) * CurrentScale);
+
 		Visuals->SetWorldScale3D(FVector(CurrentScale));
+
 	}
 
 	// Handle movement based on our "MoveX" and "MoveY" axes
@@ -111,7 +113,7 @@ void AMyPawn::StopGrowing()
 void AMyPawn::GrowBoost()
 {
 	if (bGrowing) {
-		Visuals->SetWorldScale3D(FVector(2.0f, 2.0f, 2.0f));
+		Visuals->SetWorldScale3D(Visuals->GetComponentScale() * 1.5f);
 	}
 }
 
