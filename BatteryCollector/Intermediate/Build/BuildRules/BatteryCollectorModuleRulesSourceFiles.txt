@@ -1,0 +1,3 @@
+C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Source\BatteryCollector\BatteryCollector.Build.cs
+C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Source\BatteryCollector.Target.cs
+C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Source\BatteryCollectorEditor.Target.cs
