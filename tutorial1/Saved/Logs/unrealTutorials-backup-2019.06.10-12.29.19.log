@@ -1,0 +1,1521 @@
+﻿Log file open, 06/10/19 11:55:55
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: unrealTutorials
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.399617
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-6574378
+LogInit: Engine Version: 4.22.2-6574378+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1803) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): May 20 2019 09:54:56
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Engine.ini]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Engine.ini]
+[2019.06.10-09.55.55:969][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Engine.ini]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Engine.ini]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.06.10-09.55.55:969][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Engine.ini]
+[2019.06.10-09.55.55:969][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Engine.ini]
+[2019.06.10-09.55.55:974][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Scalability.ini]
+[2019.06.10-09.55.55:974][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.10-09.55.55:974][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.10-09.55.55:974][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Scalability.ini]
+[2019.06.10-09.55.55:974][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.10-09.55.55:974][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Scalability.ini]
+[2019.06.10-09.55.55:974][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.10-09.55.55:974][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.10-09.55.55:974][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.10-09.55.55:974][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.10-09.55.55:974][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.10-09.55.55:974][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.10-09.55.55:974][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.10-09.55.55:974][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.10-09.55.55:974][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.10-09.55.55:974][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.10-09.55.55:974][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Scalability.ini]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Scalability.ini]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Scalability.ini]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Scalability.ini]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.10-09.55.55:975][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.10-09.55.55:975][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.10-09.55.55:975][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.10-09.55.55:989][  0]LogHAL: Display: Platform has ~ 16 GB [17053306880 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.06.10-09.55.55:989][  0]LogInit: Going up to parent DeviceProfile []
+[2019.06.10-09.55.55:989][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Scalability.ini]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Scalability.ini]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Scalability.ini]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Scalability.ini]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.10-09.55.55:989][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Scalability.ini]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Scalability.ini]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Scalability.ini]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.06.10-09.55.55:990][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/hiszp/Documents/unrealTutorials/Saved/Config/Windows/Engine.ini]
+[2019.06.10-09.55.55:990][  0]LogInit: Computer: LAPTOP-N6DQ3EP4
+[2019.06.10-09.55.55:990][  0]LogInit: User: hiszp
+[2019.06.10-09.55.55:990][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.06.10-09.55.55:990][  0]LogInit: High frequency timer resolution =2.156248 MHz
+[2019.06.10-09.55.55:991][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.06.10-09.55.55:991][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.10-09.55.55:991][  0]LogMemory: Process Physical Memory: 96.39 MB used, 96.39 MB peak
+[2019.06.10-09.55.55:991][  0]LogMemory: Process Virtual Memory: 91.59 MB used, 91.59 MB peak
+[2019.06.10-09.55.55:991][  0]LogMemory: Physical Memory: 7979.51 MB used,  8283.79 MB free, 16263.30 MB total
+[2019.06.10-09.55.55:991][  0]LogMemory: Virtual Memory: 4674.19 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.06.10-09.55.56:008][  0]LogInit: Using OS detected language (en-GB).
+[2019.06.10-09.55.56:008][  0]LogInit: Using OS detected locale (en-GB).
+[2019.06.10-09.55.56:008][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.06.10-09.55.56:149][  0]LogInit: Setting process to per monitor DPI aware
+[2019.06.10-09.55.56:188][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.10-09.55.56:188][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.10-09.55.56:344][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.10-09.55.56:344][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.10-09.55.56:411][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.06.10-09.55.56:411][  0]LogD3D11RHI:       4018/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.06.10-09.55.56:423][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.06.10-09.55.56:424][  0]LogD3D11RHI:       128/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.06.10-09.55.56:425][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.10-09.55.56:425][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.10-09.55.56:425][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.10-09.55.56:433][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.10-09.55.56:433][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2019.06.10-09.55.56:433][  0]LogWindows: EnumDisplayDevices:
+[2019.06.10-09.55.56:433][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2019.06.10-09.55.56:433][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.06.10-09.55.56:434][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.06.10-09.55.56:434][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.06.10-09.55.56:434][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.06.10-09.55.56:434][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.06.10-09.55.56:435][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.06.10-09.55.56:435][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.06.10-09.55.56:435][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.06.10-09.55.56:435][  0]LogD3D11RHI:   Driver Version: 430.86 (internal:26.21.14.3086, unified:430.86)
+[2019.06.10-09.55.56:435][  0]LogD3D11RHI:      Driver Date: 5-22-2019
+[2019.06.10-09.55.56:435][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.06.10-09.55.56:480][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.10-09.55.56:484][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.10-09.55.56:485][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.10-09.55.56:485][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.10-09.55.56:492][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.06.10-09.55.56:791][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.06.10-09.55.56:803][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.06.10-09.55.56:814][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.06.10-09.55.56:826][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.06.10-09.55.56:838][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.06.10-09.55.56:849][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.06.10-09.55.56:861][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.06.10-09.55.56:872][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.06.10-09.55.56:877][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.06.10-09.55.56:944][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.06.10-09.55.56:946][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.06.10-09.55.56:991][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.06.10-09.55.56:991][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.06.10-09.55.57:011][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.06.10-09.55.57:011][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.06.10-09.55.57:021][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.06.10-09.55.57:031][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.06.10-09.55.57:041][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.06.10-09.55.57:051][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.06.10-09.55.57:087][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.06.10-09.55.57:087][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.06.10-09.55.57:087][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.10-09.55.57:094][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.06.10-09.55.57:136][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/hiszp/Documents/unrealTutorials/Intermediate/Shaders/WorkingDirectory/12696/).
+[2019.06.10-09.55.57:136][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hiszp/AppData/Local/Temp/UnrealShaderWorkingDir/73A506EE4B8C4760EA7D54A225256C5F/'.
+[2019.06.10-09.55.57:138][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.10-09.55.57:138][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.10-09.55.57:138][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.10-09.55.57:610][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.10-09.55.57:657][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/hiszp/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.06.10-09.55.57:657][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hiszp/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.06.10-09.55.57:657][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/hiszp/Documents/unrealTutorials/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.10-09.55.57:657][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.10-09.55.57:657][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/hiszp/Documents/unrealTutorials/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.10-09.55.57:657][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.10-09.55.57:669][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.10-09.55.57:669][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.10-09.55.57:669][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.06.10-09.55.57:681][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hiszp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.10-09.55.57:681][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.10-09.55.57:681][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.10-09.55.57:700][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.10-09.55.57:701][  0]LogSlate: Using FreeType 2.6.0
+[2019.06.10-09.55.57:702][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.10-09.55.57:775][  0]LogAssetRegistry: FAssetRegistry took 0.0308 seconds to start up
+[2019.06.10-09.55.58:040][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.10-09.55.58:150][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.10-09.55.58:150][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.06.10-09.55.58:150][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.06.10-09.55.58:150][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.06.10-09.55.58:150][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.06.10-09.55.58:159][  0]LogNetVersion: unrealTutorials 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2429478420)
+[2019.06.10-09.55.58:492][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.037427 seconds
+[2019.06.10-09.55.58:497][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.06.10-09.55.58:497][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.06.10-09.55.58:497][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.10-09.55.59:170][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.10-09.55.59:185][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.10-09.55.59:309][  0]SourceControl: Source control is disabled
+[2019.06.10-09.55.59:309][  0]SourceControl: Source control is disabled
+[2019.06.10-09.55.59:310][  0]SourceControl: Source control is disabled
+[2019.06.10-09.55.59:311][  0]SourceControl: Source control is disabled
+[2019.06.10-09.55.59:366][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.10-09.55.59:439][  0]LogOcInput: OculusInput pre-init called
+[2019.06.10-09.56.00:004][  0]LogEngine: Initializing Engine...
+[2019.06.10-09.56.00:004][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.10-09.56.00:005][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.06.10-09.56.00:180][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.06.10-09.56.00:194][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.10-09.56.00:209][  0]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-09.56.00:225][  0]LogInit: FAudioDevice initialized.
+[2019.06.10-09.56.00:225][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.06.10-09.56.00:266][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/hiszp/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.06.10-09.56.00:270][  0]LogInit: Texture streaming: Enabled
+[2019.06.10-09.56.00:285][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.10-09.56.00:303][  0]LogInit: Transaction tracking system initialized
+[2019.06.10-09.56.00:324][  0]BlueprintLog: New page: Editor Load
+[2019.06.10-09.56.00:390][  0]LocalizationService: Localization service is disabled
+[2019.06.10-09.56.00:696][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hiszp/Documents/unrealTutorials/Content/' took 0.02s
+[2019.06.10-09.56.00:696][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.10-09.56.00:696][  0]LogCook: Display: Mobile HDR setting 1
+[2019.06.10-09.56.00:836][  0]SourceControl: Source control is disabled
+[2019.06.10-09.56.00:836][  0]Cmd: MAP LOAD FILE="../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.10-09.56.00:837][  0]LightingResults: New page: Lighting Build
+[2019.06.10-09.56.00:839][  0]MapCheck: New page: Map Check
+[2019.06.10-09.56.00:839][  0]LightingResults: New page: Lighting Build
+[2019.06.10-09.56.00:866][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2019.06.10-09.56.01:261][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-09.56.01:272][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.10-09.56.01:299][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2019.06.10-09.56.01:299][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.10-09.56.01:300][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.125ms to complete.
+[2019.06.10-09.56.01:300][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.463
+[2019.06.10-09.56.01:431][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-09.56.01:438][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-09.56.01:443][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-09.56.01:449][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-09.56.01:471][  0]LogCollectionManager: Loaded 0 collections in 0.001412 seconds
+[2019.06.10-09.56.01:506][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hiszp/Documents/unrealTutorials/Saved/Collections/' took 0.01s
+[2019.06.10-09.56.01:506][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hiszp/Documents/unrealTutorials/Content/Developers/hiszp/Collections/' took 0.00s
+[2019.06.10-09.56.01:506][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hiszp/Documents/unrealTutorials/Content/Collections/' took 0.00s
+[2019.06.10-09.56.01:506][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.06.10-09.56.01:515][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2734 classes and 661 folders.
+[2019.06.10-09.56.01:529][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.10-09.56.01:538][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:545][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:560][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:566][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:571][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:576][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:581][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:586][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:592][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:597][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:604][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:609][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:613][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:619][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:623][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:628][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:651][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:656][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:661][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:665][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:670][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:675][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:681][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:686][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:691][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:697][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.10-09.56.01:828][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.10-09.56.01:838][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.06.10-09.56.01:885][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.10-09.56.01:886][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.10-09.56.01:896][  0]LogSlate: Took 0.005737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.10-09.56.01:993][  0]LogRenderer: Reallocating scene render targets to support 1128x600 Format 10 NumSamples 1 (Frame:1).
+[2019.06.10-09.56.02:043][  0]LogSlate: Took 0.004973 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.10-09.56.02:101][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.06.10-09.56.02:101][  0]LogLoad: (Engine Initialization) Total time: 7.88 seconds
+[2019.06.10-09.56.02:101][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.10-09.56.02:120][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.06.10-09.56.02:142][  0]LogAssetRegistry: Asset discovery search completed in 4.3900 seconds
+[2019.06.10-09.56.02:144][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.06.10-09.56.02:144][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2019.06.10-09.56.02:147][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.06.10-09.56.06:616][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-09.56.06:781][124]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.10-09.56.06:805][124]LogAssetEditorManager: Opening Asset editor for Class /Script/unrealTutorials.FloatingActor
+[2019.06.10-10.01.12:526][748]Candidate modules for hot reload:
+[2019.06.10-10.01.12:526][748]  unrealTutorials
+[2019.06.10-10.01.12:526][748]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=unrealTutorials,2535 Win64 Development -TargetType=Editor -Project="C:/Users/hiszp/Documents/unrealTutorials/unrealTutorials.uproject" "C:/Users/hiszp/Documents/unrealTutorials/unrealTutorials.uproject"  -IgnoreJunk]
+[2019.06.10-10.01.12:529][748]Warning: Starting HotReload took  0.0s.
+[2019.06.10-10.01.35:893][766]CompilerResultsLog: New page: Compilation - 10 Jun 2019 14:01:35
+[2019.06.10-10.01.35:893][766]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hiszp\Documents\unrealTutorials).
+[2019.06.10-10.01.35:893][766]CompilerResultsLog: Creating makefile for unrealTutorialsEditor (ini files are newer than makefile)
+[2019.06.10-10.01.35:893][766]CompilerResultsLog: Parsing headers for unrealTutorialsEditor
+[2019.06.10-10.01.35:893][766]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hiszp\Documents\unrealTutorials\unrealTutorials.uproject" "C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\unrealTutorialsEditor\Development\unrealTutorialsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.06.10-10.01.35:893][766]CompilerResultsLog: Reflection code generated for unrealTutorialsEditor in 16.0156034 seconds
+[2019.06.10-10.01.35:893][766]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.06.10-10.01.35:893][766]CompilerResultsLog: Building 6 actions with 12 processes...
+[2019.06.10-10.01.35:893][766]CompilerResultsLog:   [1/6] unrealTutorials.init.gen.cpp
+[2019.06.10-10.01.35:893][766]CompilerResultsLog:   [2/6] FloatingActor.cpp
+[2019.06.10-10.01.35:893][766]CompilerResultsLog:   [3/6] FloatingActor.gen.cpp
+[2019.06.10-10.01.35:893][766]CompilerResultsLog:   [4/6] UE4Editor-unrealTutorials-2535.lib
+[2019.06.10-10.01.35:893][766]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-2535.lib and object C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-2535.exp
+[2019.06.10-10.01.35:893][766]CompilerResultsLog:   [5/6] UE4Editor-unrealTutorials-2535.dll
+[2019.06.10-10.01.35:893][766]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-2535.suppressed.lib and object C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-2535.suppressed.exp
+[2019.06.10-10.01.35:893][766]CompilerResultsLog:   [6/6] unrealTutorialsEditor.target
+[2019.06.10-10.01.35:893][766]CompilerResultsLog: Total time in Parallel executor: 4.96 seconds
+[2019.06.10-10.01.35:893][766]CompilerResultsLog: Total execution time: 23.29 seconds
+[2019.06.10-10.01.35:894][766]LogMainFrame: MainFrame: Module compiling took 23.371 seconds
+[2019.06.10-10.01.35:920][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2019.06.10-10.01.35:931][766]LogClass: Could not find existing class FloatingActor in package /Script/unrealTutorials for HotReload, assuming new class
+[2019.06.10-10.01.35:934][766]LogHotReload: Re-instancing FloatingActor after hot-reload.
+[2019.06.10-10.01.35:938][766]LogClass: Warning: Type mismatch in Amplitude of FloatingActor - Previous (FloatProperty) Current(StructProperty) for package:  FObjectReader
+[2019.06.10-10.01.36:033][766]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2019.06.10-10.01.36:035][766]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-10.01.36:205][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.06.10-10.01.36:216][766]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2735 classes and 663 folders.
+[2019.06.10-10.01.36:220][766]Display: HotReload took 23.7s.
+[2019.06.10-10.02.56:786][287]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.06.10-10.02.56:892][287]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default403D3AD749BE5449D15F9D9D43E1E309.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.06.10-10.02.56:969][287]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default_BuiltDataC2A00C7D428621EBDC679CA48B474FA9.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.06.10-10.02.59:369][431]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.10-10.02.59:382][431]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.02.59:383][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-10.02.59:384][431]PIE: New page: PIE session: Minimal_Default (10 Jun 2019 14:02:59)
+[2019.06.10-10.02.59:400][431]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-10.02.59:404][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004103s)
+[2019.06.10-10.02.59:405][431]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-10.02.59:406][431]LogPlayLevel: PIE: World Init took: (0.001269s)
+[2019.06.10-10.02.59:406][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005676s)
+[2019.06.10-10.02.59:429][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.06.10-10.02.59:440][431]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-10.02.59:452][431]LogInit: FAudioDevice initialized.
+[2019.06.10-10.02.59:494][431]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/unrealTutorials.unrealTutorialsGameMode'
+[2019.06.10-10.02.59:494][431]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-10.02.59:505][431]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-12.02.59
+[2019.06.10-10.02.59:508][431]LogWorld: Bringing up level for play took: 0.003728
+[2019.06.10-10.02.59:552][431]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.06.10-10.02.59:557][431]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.249
+[2019.06.10-10.02.59:557][431]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.03.20:107][662]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.03.20:108][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.03.20:139][662]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-10.03.20:140][662]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.03.20:168][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.03.20:173][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2019.06.10-10.03.20:206][664]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.06.10-10.08.23:700][873]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-10.08.23:766][877]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.10-10.08.23:778][877]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.08.23:779][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-10.08.23:779][877]PIE: New page: PIE session: Minimal_Default (10 Jun 2019 14:08:23)
+[2019.06.10-10.08.23:779][877]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-10.08.23:782][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003354s)
+[2019.06.10-10.08.23:783][877]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-10.08.23:786][877]LogPlayLevel: PIE: World Init took: (0.003739s)
+[2019.06.10-10.08.23:786][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007210s)
+[2019.06.10-10.08.23:809][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.06.10-10.08.23:818][877]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-10.08.23:830][877]LogInit: FAudioDevice initialized.
+[2019.06.10-10.08.23:858][877]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-10.08.23:860][877]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-12.08.23
+[2019.06.10-10.08.23:860][877]LogWorld: Bringing up level for play took: 0.000745
+[2019.06.10-10.08.23:873][877]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.067
+[2019.06.10-10.08.23:873][877]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.08.26:389][ 27]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.08.26:390][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.08.26:423][ 27]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-10.08.26:423][ 27]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.08.26:448][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.08.26:451][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.06.10-10.08.26:495][ 30]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.06.10-10.08.39:539][374]LogHotReload: New module detected: UE4Editor-unrealTutorials-0008.dll
+[2019.06.10-10.08.40:569][433]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.10-10.08.40:621][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.06.10-10.08.40:646][433]LogClass: Could not find existing class FloatingActor in package /Script/unrealTutorials for HotReload, assuming new class
+[2019.06.10-10.08.40:649][433]LogHotReload: Re-instancing FloatingActor after hot-reload.
+[2019.06.10-10.08.40:710][433]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.06.10-10.08.40:712][433]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-10.08.40:754][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.06.10-10.08.40:765][433]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2735 classes and 663 folders.
+[2019.06.10-10.08.40:767][433]Display: HotReload took  0.2s.
+[2019.06.10-10.09.02:282][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.06.10-10.09.02:371][721]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default6094C1A0499631DD721334817295E7C7.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.06.10-10.09.02:429][721]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default_BuiltData2DC81F9E4AE87223E0D4DAAF3546CCE1.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.06.10-10.09.03:714][798]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.10-10.09.03:726][798]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.09.03:726][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-10.09.03:726][798]PIE: New page: PIE session: Minimal_Default (10 Jun 2019 14:09:03)
+[2019.06.10-10.09.03:726][798]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-10.09.03:729][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002743s)
+[2019.06.10-10.09.03:730][798]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-10.09.03:730][798]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2019.06.10-10.09.03:730][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003480s)
+[2019.06.10-10.09.03:754][798]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2019.06.10-10.09.03:763][798]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-10.09.03:775][798]LogInit: FAudioDevice initialized.
+[2019.06.10-10.09.03:803][798]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-10.09.03:804][798]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-12.09.03
+[2019.06.10-10.09.03:804][798]LogWorld: Bringing up level for play took: 0.000673
+[2019.06.10-10.09.03:817][798]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.01
+[2019.06.10-10.09.03:817][798]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.09.25:664][108]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.09.25:664][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.09.25:693][108]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-10.09.25:693][108]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.09.25:719][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.09.25:721][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.06.10-10.09.25:772][111]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.06.10-10.09.29:410][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-10.09.38:371][864]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.06.10-10.09.38:458][864]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default87034EFC46A15E950877E4B4BBBC476F.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.06.10-10.09.38:511][864]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default_BuiltData0CEB3AAD454596804AFF16878DC99C10.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.06.10-10.09.39:783][940]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.10-10.09.39:793][940]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.09.39:793][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-10.09.39:793][940]PIE: New page: PIE session: Minimal_Default (10 Jun 2019 14:09:39)
+[2019.06.10-10.09.39:794][940]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-10.09.39:796][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002701s)
+[2019.06.10-10.09.39:797][940]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-10.09.39:797][940]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2019.06.10-10.09.39:797][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003369s)
+[2019.06.10-10.09.39:822][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2019.06.10-10.09.39:833][940]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-10.09.39:847][940]LogInit: FAudioDevice initialized.
+[2019.06.10-10.09.39:873][940]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-10.09.39:874][940]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-12.09.39
+[2019.06.10-10.09.39:875][940]LogWorld: Bringing up level for play took: 0.000660
+[2019.06.10-10.09.39:887][940]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.081
+[2019.06.10-10.09.39:887][940]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.09.44:718][229]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.09.44:718][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.09.44:750][229]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-10.09.44:750][229]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.09.44:775][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.09.44:777][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2019.06.10-10.09.44:825][232]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.06.10-10.09.46:827][352]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-10.12.17:640][762]LogHotReload: New module detected: UE4Editor-unrealTutorials-0009.dll
+[2019.06.10-10.12.18:660][766]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.10-10.12.18:704][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.06.10-10.12.18:719][766]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.06.10-10.12.18:721][766]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-10.12.18:765][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.06.10-10.12.18:775][766]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2735 classes and 663 folders.
+[2019.06.10-10.12.18:777][766]Display: HotReload took  0.1s.
+[2019.06.10-10.12.20:996][772]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.06.10-10.12.23:650][925]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-10.12.23:700][928]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.10-10.12.23:713][928]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.12.23:713][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-10.12.23:713][928]PIE: New page: PIE session: Minimal_Default (10 Jun 2019 14:12:23)
+[2019.06.10-10.12.23:713][928]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-10.12.23:716][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002751s)
+[2019.06.10-10.12.23:716][928]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-10.12.23:716][928]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2019.06.10-10.12.23:716][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003405s)
+[2019.06.10-10.12.23:740][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.06.10-10.12.23:750][928]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-10.12.23:762][928]LogInit: FAudioDevice initialized.
+[2019.06.10-10.12.23:787][928]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-10.12.23:789][928]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-12.12.23
+[2019.06.10-10.12.23:789][928]LogWorld: Bringing up level for play took: 0.000642
+[2019.06.10-10.12.23:802][928]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.005
+[2019.06.10-10.12.23:802][928]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.12.31:829][409]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-10.13.02:897][272]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-10.13.15:581][ 33]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.13.15:582][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.13.15:608][ 33]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-10.13.15:608][ 33]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.13.15:634][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.13.15:636][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.06.10-10.13.15:685][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.06.10-10.25.00:794][225]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-10.47.14:935][204]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-10.49.54:530][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-10.49.54:588][819]Candidate modules for hot reload:
+[2019.06.10-10.49.54:588][819]  unrealTutorials
+[2019.06.10-10.49.54:588][819]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=unrealTutorials,2394 Win64 Development -TargetType=Editor -Project="C:/Users/hiszp/Documents/unrealTutorials/unrealTutorials.uproject" "C:/Users/hiszp/Documents/unrealTutorials/unrealTutorials.uproject"  -IgnoreJunk]
+[2019.06.10-10.49.54:591][819]Warning: Starting HotReload took  0.0s.
+[2019.06.10-10.50.01:258][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-10.50.03:966][382]CompilerResultsLog: New page: Compilation - 10 Jun 2019 14:50:03
+[2019.06.10-10.50.03:966][382]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hiszp\Documents\unrealTutorials).
+[2019.06.10-10.50.03:966][382]CompilerResultsLog: Creating makefile for unrealTutorialsEditor (ini files are newer than makefile)
+[2019.06.10-10.50.03:966][382]CompilerResultsLog: Parsing headers for unrealTutorialsEditor
+[2019.06.10-10.50.03:966][382]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hiszp\Documents\unrealTutorials\unrealTutorials.uproject" "C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\unrealTutorialsEditor\Development\unrealTutorialsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.06.10-10.50.03:966][382]CompilerResultsLog: Reflection code generated for unrealTutorialsEditor in 5.766685 seconds
+[2019.06.10-10.50.03:966][382]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.06.10-10.50.03:966][382]CompilerResultsLog: Building 4 actions with 12 processes...
+[2019.06.10-10.50.03:966][382]CompilerResultsLog:   [1/4] FloatingActor.cpp
+[2019.06.10-10.50.03:966][382]CompilerResultsLog:   [2/4] UE4Editor-unrealTutorials-2394.lib
+[2019.06.10-10.50.03:966][382]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-2394.lib and object C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-2394.exp
+[2019.06.10-10.50.03:966][382]CompilerResultsLog:   [3/4] UE4Editor-unrealTutorials-2394.dll
+[2019.06.10-10.50.03:966][382]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-2394.suppressed.lib and object C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-2394.suppressed.exp
+[2019.06.10-10.50.03:966][382]CompilerResultsLog:   [4/4] unrealTutorialsEditor.target
+[2019.06.10-10.50.03:966][382]CompilerResultsLog: Total time in Parallel executor: 1.60 seconds
+[2019.06.10-10.50.03:966][382]CompilerResultsLog: Total execution time: 9.30 seconds
+[2019.06.10-10.50.03:966][382]LogMainFrame: MainFrame: Module compiling took 9.380 seconds
+[2019.06.10-10.50.03:991][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.06.10-10.50.04:014][382]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.06.10-10.50.04:017][382]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-10.50.04:059][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.06.10-10.50.04:070][382]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2735 classes and 663 folders.
+[2019.06.10-10.50.04:070][382]Display: HotReload took  9.5s.
+[2019.06.10-10.50.13:635][955]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.50.13:635][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-10.50.13:635][955]PIE: New page: SIE session: Minimal_Default (10 Jun 2019 14:50:13)
+[2019.06.10-10.50.13:635][955]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-10.50.13:638][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003018s)
+[2019.06.10-10.50.13:638][955]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-10.50.13:639][955]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2019.06.10-10.50.13:639][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003742s)
+[2019.06.10-10.50.13:663][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.06.10-10.50.13:672][955]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-10.50.13:684][955]LogInit: FAudioDevice initialized.
+[2019.06.10-10.50.13:712][955]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-10.50.13:712][955]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-12.50.13
+[2019.06.10-10.50.13:712][955]LogWorld: Bringing up level for play took: 0.000659
+[2019.06.10-10.50.13:726][955]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.08
+[2019.06.10-10.50.13:742][955]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.50.17:156][160]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.50.17:156][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.50.17:186][160]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-10.50.17:186][160]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.50.17:215][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.50.17:217][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2019.06.10-10.50.17:259][163]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.06.10-10.50.42:713][314]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2019.06.10-10.50.42:806][314]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default_Auto10AAB02AC401AE339261E8DA18F64CBF6.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2019.06.10-10.50.42:809][314]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.119
+[2019.06.10-10.50.42:809][314]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.119
+[2019.06.10-10.51.14:914][532]Candidate modules for hot reload:
+[2019.06.10-10.51.14:914][532]  unrealTutorials
+[2019.06.10-10.51.14:914][532]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=unrealTutorials,6840 Win64 Development -TargetType=Editor -Project="C:/Users/hiszp/Documents/unrealTutorials/unrealTutorials.uproject" "C:/Users/hiszp/Documents/unrealTutorials/unrealTutorials.uproject"  -IgnoreJunk]
+[2019.06.10-10.51.14:917][532]Warning: Starting HotReload took  0.0s.
+[2019.06.10-10.51.24:419][102]CompilerResultsLog: New page: Compilation - 10 Jun 2019 14:51:24
+[2019.06.10-10.51.24:419][102]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hiszp\Documents\unrealTutorials).
+[2019.06.10-10.51.24:419][102]CompilerResultsLog: Creating makefile for unrealTutorialsEditor (ini files are newer than makefile)
+[2019.06.10-10.51.24:419][102]CompilerResultsLog: Parsing headers for unrealTutorialsEditor
+[2019.06.10-10.51.24:419][102]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hiszp\Documents\unrealTutorials\unrealTutorials.uproject" "C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\unrealTutorialsEditor\Development\unrealTutorialsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.06.10-10.51.24:419][102]CompilerResultsLog: Reflection code generated for unrealTutorialsEditor in 5.8962855 seconds
+[2019.06.10-10.51.24:419][102]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.06.10-10.51.24:419][102]CompilerResultsLog: Building 4 actions with 12 processes...
+[2019.06.10-10.51.24:419][102]CompilerResultsLog:   [1/4] FloatingActor.cpp
+[2019.06.10-10.51.24:419][102]CompilerResultsLog:   [2/4] UE4Editor-unrealTutorials-6840.lib
+[2019.06.10-10.51.24:419][102]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-6840.lib and object C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-6840.exp
+[2019.06.10-10.51.24:419][102]CompilerResultsLog:   [3/4] UE4Editor-unrealTutorials-6840.dll
+[2019.06.10-10.51.24:419][102]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-6840.suppressed.lib and object C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-6840.suppressed.exp
+[2019.06.10-10.51.24:419][102]CompilerResultsLog:   [4/4] unrealTutorialsEditor.target
+[2019.06.10-10.51.24:419][102]CompilerResultsLog: Total time in Parallel executor: 1.57 seconds
+[2019.06.10-10.51.24:419][102]CompilerResultsLog: Total execution time: 9.42 seconds
+[2019.06.10-10.51.24:419][102]LogMainFrame: MainFrame: Module compiling took 9.507 seconds
+[2019.06.10-10.51.24:444][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2019.06.10-10.51.24:458][102]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.06.10-10.51.24:460][102]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-10.51.24:499][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.06.10-10.51.24:510][102]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2735 classes and 663 folders.
+[2019.06.10-10.51.24:510][102]Display: HotReload took  9.6s.
+[2019.06.10-10.51.29:610][408]LogTemp: Repeating last play command: Simulate
+[2019.06.10-10.51.29:621][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.51.29:621][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-10.51.29:621][408]PIE: New page: SIE session: Minimal_Default (10 Jun 2019 14:51:29)
+[2019.06.10-10.51.29:621][408]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-10.51.29:624][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002935s)
+[2019.06.10-10.51.29:625][408]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-10.51.29:625][408]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2019.06.10-10.51.29:625][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003607s)
+[2019.06.10-10.51.29:649][408]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.06.10-10.51.29:658][408]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-10.51.29:670][408]LogInit: FAudioDevice initialized.
+[2019.06.10-10.51.29:700][408]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-10.51.29:701][408]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-12.51.29
+[2019.06.10-10.51.29:701][408]LogWorld: Bringing up level for play took: 0.000662
+[2019.06.10-10.51.29:714][408]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.092
+[2019.06.10-10.51.29:716][408]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.51.42:088][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-10.51.43:640][243]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.51.43:640][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.51.43:671][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-10.51.43:671][243]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.51.43:696][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.51.43:698][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.06.10-10.51.43:742][246]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.06.10-10.51.44:975][320]LogEditorViewport: Clicking on Actor (LMB): FloatingActor (FloatingActor1)
+[2019.06.10-10.51.47:608][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-10.51.57:253][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.06.10-10.51.57:338][ 53]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default0523EF354E405B9FEDF5D1BE653AF85F.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.06.10-10.51.57:397][ 53]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default_BuiltData3B364C544D2EB4FFE400D9B1B7F19C90.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.06.10-10.51.58:362][111]LogTemp: Repeating last play command: Simulate
+[2019.06.10-10.51.58:371][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.51.58:371][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-10.51.58:371][111]PIE: New page: SIE session: Minimal_Default (10 Jun 2019 14:51:58)
+[2019.06.10-10.51.58:371][111]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-10.51.58:374][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002748s)
+[2019.06.10-10.51.58:375][111]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-10.51.58:375][111]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2019.06.10-10.51.58:375][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003411s)
+[2019.06.10-10.51.58:398][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.06.10-10.51.58:408][111]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-10.51.58:419][111]LogInit: FAudioDevice initialized.
+[2019.06.10-10.51.58:450][111]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-10.51.58:452][111]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-12.51.58
+[2019.06.10-10.51.58:452][111]LogWorld: Bringing up level for play took: 0.000647
+[2019.06.10-10.51.58:465][111]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.658
+[2019.06.10-10.51.58:471][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.53.51:629][504]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-10.53.54:394][662]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.53.54:394][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.53.54:428][662]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-10.53.54:429][662]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.53.54:455][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.53.54:457][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.06.10-10.53.54:501][665]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.06.10-10.53.55:552][728]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.06.10-10.53.56:274][770]LogEditorViewport: Clicking on Actor (LMB): FloatingActor (FloatingActor1)
+[2019.06.10-10.54.00:004][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-10.54.37:234][222]LogSlate: Took 0.005977 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.06.10-10.56.48:256][979]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.06.10-10.56.56:847][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-10.56.56:930][497]LogTemp: Repeating last play command: Simulate
+[2019.06.10-10.56.56:939][497]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.56.56:939][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-10.56.56:939][497]PIE: New page: SIE session: Minimal_Default (10 Jun 2019 14:56:56)
+[2019.06.10-10.56.56:939][497]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-10.56.56:942][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002745s)
+[2019.06.10-10.56.56:942][497]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-10.56.56:942][497]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2019.06.10-10.56.56:943][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003389s)
+[2019.06.10-10.56.56:966][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.06.10-10.56.56:976][497]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-10.56.56:988][497]LogInit: FAudioDevice initialized.
+[2019.06.10-10.56.57:017][497]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-10.56.57:018][497]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-12.56.57
+[2019.06.10-10.56.57:018][497]LogWorld: Bringing up level for play took: 0.000706
+[2019.06.10-10.56.57:031][497]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.776
+[2019.06.10-10.56.57:036][497]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.57.10:249][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-10.57.10:316][293]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.57.10:317][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.57.10:350][293]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-10.57.10:350][293]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-10.57.10:379][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-10.57.10:381][293]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.06.10-10.57.10:423][296]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.06.10-10.57.11:475][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.06.10-10.57.11:568][355]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default03034E0C44720E32B68B87BAF7011BE9.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.06.10-10.57.11:622][355]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default_BuiltDataDAC53D9E436226803D846D8BF7B92198.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.06.10-11.05.51:888][436]LogEditorViewport: Clicking on Actor (LMB): FloatingActor (FloatingActor1)
+[2019.06.10-11.05.57:720][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.06.10-11.05.58:687][840]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.06.10-11.06.04:034][158]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.06.10-11.06.07:319][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.06.10-11.06.11:063][575]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.06.10-11.06.11:118][575]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.06.23:009][285]Cmd: EDIT COPY
+[2019.06.10-11.06.23:316][303]Cmd: EDIT PASTE
+[2019.06.10-11.06.38:430][203]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.06.38:466][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2019.06.10-11.06.38:561][203]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_DefaultEDE94BD0405AD394E4ADB1969A06DFC4.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.06.10-11.06.38:620][203]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default_BuiltDataDFA6D8814F1384CAB8246AAE152AD648.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.06.10-11.06.52:059][  5]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.06.10-11.07.00:040][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-11.07.00:057][483]MapCheck: New page: Map Check
+[2019.06.10-11.07.00:069][483]Cmd: MAP REBUILD ALLVISIBLE
+[2019.06.10-11.07.00:069][483]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.06.10-11.07.00:112][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2019.06.10-11.07.00:130][483]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.06.10-11.07.00:146][483]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.06.10-11.07.00:152][483]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.06.10-11.07.00:158][483]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.06.10-11.07.00:164][483]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.06.10-11.07.00:171][483]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.06.10-11.07.00:177][483]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.06.10-11.07.00:184][483]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.06.10-11.07.00:190][483]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.06.10-11.07.00:198][483]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.06.10-11.07.00:206][483]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.06.10-11.07.01:218][483]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.10-11.07.01:218][483]TextureStreamingBuild: Display: Compiling optional shaders took 1.100 seconds.
+[2019.06.10-11.07.01:274][483]LogLevel: Display: Export Material TexCoord Scales took 0.056 seconds.
+[2019.06.10-11.07.01:284][483]TextureStreamingBuild: Display: Build Texture Streaming took 0.009 seconds.
+[2019.06.10-11.07.01:310][483]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.06.10-11.07.01:312][483]LightingResults: New page: Lighting Build - 10 Jun 2019 15:07:01
+[2019.06.10-11.07.01:354][483]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.06.10-11.07.01:448][483]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.06.10-11.07.01:460][483]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.06.10-11.07.01:975][483]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.06.10-11.07.01:975][483]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12696
+[2019.06.10-11.07.06:574][483]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.06.10-11.07.06:575][483]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.06.10-11.07.06:575][483]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.06.10-11.07.06:575][483]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.06.10-11.07.06:575][483]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.06.10-11.07.06:575][483]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.06.10-11.07.06:806][483]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.06.10-11.07.06:806][483]MapCheck: New page: Minimal_Default - 10 Jun 2019 15:07:06
+[2019.06.10-11.07.06:807][483]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2019.06.10-11.07.06:809][483]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 2.87ms to complete.
+[2019.06.10-11.07.06:833][483]LogEditorBuildUtils: Build time 0:06
+[2019.06.10-11.07.06:853][483]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2019.06.10-11.07.06:864][483]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2019.06.10-11.07.06:901][484]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2019.06.10-11.07.06:911][484]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2019.06.10-11.07.06:948][485]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2019.06.10-11.07.06:958][485]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2019.06.10-11.07.06:980][486]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2019.06.10-11.07.06:990][486]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2019.06.10-11.07.07:032][487]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling. 
+[2019.06.10-11.07.07:044][487]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling. 
+[2019.06.10-11.07.07:101][488]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Burnished_Steel, compiling. 
+[2019.06.10-11.07.07:114][488]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Burnished_Steel, compiling. 
+[2019.06.10-11.07.07:169][489]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2019.06.10-11.07.07:183][489]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2019.06.10-11.07.07:244][490]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2019.06.10-11.07.07:261][490]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2019.06.10-11.07.09:831][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.06.10-11.07.12:015][597]Job is a success!
+[2019.06.10-11.07.12:084][598]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.011s
+[2019.06.10-11.07.12:084][598]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.06.10-11.07.12:084][598]LogVolumetricLightmapImport:      BrickData 40x5x5 = 0.0Mb
+[2019.06.10-11.07.12:084][598]LogVolumetricLightmapImport:      Bricks at Level
+[2019.06.10-11.07.12:084][598]LogVolumetricLightmapImport:          0: 12.5% covering 100.0% of volume
+[2019.06.10-11.07.12:084][598]LogVolumetricLightmapImport:          1: 12.5% covering 1.6% of volume
+[2019.06.10-11.07.12:084][598]LogVolumetricLightmapImport:          2: 75.0% covering 0.1% of volume
+[2019.06.10-11.07.12:209][598]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2019.06.10-11.07.12:210][598]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2019.06.10-11.07.12:210][598]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2019.06.10-11.07.12:210][598]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2019.06.10-11.07.12:210][598]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2019.06.10-11.07.12:210][598]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2019.06.10-11.07.12:210][598]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2019.06.10-11.07.12:210][598]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X128)
+[2019.06.10-11.07.12:231][598]Lightmass on LAPTOP-N6DQ3EP4: 1.62 sec total, 126 ms importing, 22 ms setup, 697 ms photons, 743 ms processing, 0 ms extra exporting [8/8 mappings]. Threads: 7.68 sec total, 1.10 sec processing.
+[2019.06.10-11.07.12:234][598]LogStaticLightingSystem: Minimal_Default_BuiltData storing lightmap data for 8 meshes in 2 LightmapResourceClusters (4.0 Meshes per cluster).
+[2019.06.10-11.07.12:258][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.06.10-11.07.12:267][598]LogStaticLightingSystem: Illumination: 10.9 sec (84 ms encoding lightmaps, 23 ms encoding shadowmaps)
+[2019.06.10-11.07.12:267][598]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.06.10-11.07.12:267][598]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.06.10-11.07.12:583][598]DumpUnbuiltLightIteractions
+[2019.06.10-11.07.12:584][598]Lights with unbuilt interactions: 0
+[2019.06.10-11.07.12:584][598]
+[2019.06.10-11.07.12:584][598]Primitives with unbuilt interactions: 0
+[2019.06.10-11.07.12:660][599]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.06.10-11.07.12:660][599]MapCheck: New page: Minimal_Default - 10 Jun 2019 15:07:12
+[2019.06.10-11.07.12:660][599]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.296ms to complete.
+[2019.06.10-11.07.14:617][716]LogSlate: Window 'Message Log' being destroyed
+[2019.06.10-11.07.14:622][716]LogSlate: Window 'Message Log' being destroyed
+[2019.06.10-11.07.20:724][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.07.22:746][202]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.07.22:791][202]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.07.22:804][202]LogSlate: Took 0.004317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.10-11.07.50:775][858]Candidate modules for hot reload:
+[2019.06.10-11.07.50:775][858]  unrealTutorials
+[2019.06.10-11.07.50:776][858]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=unrealTutorials,975 Win64 Development -TargetType=Editor -Project="C:/Users/hiszp/Documents/unrealTutorials/unrealTutorials.uproject" "C:/Users/hiszp/Documents/unrealTutorials/unrealTutorials.uproject"  -IgnoreJunk]
+[2019.06.10-11.08.10:099][858]CompilerResultsLog: New page: Compilation - 10 Jun 2019 15:08:10
+[2019.06.10-11.08.10:099][858]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hiszp\Documents\unrealTutorials).
+[2019.06.10-11.08.10:099][858]CompilerResultsLog: Creating makefile for unrealTutorialsEditor (ini files are newer than makefile)
+[2019.06.10-11.08.10:099][858]CompilerResultsLog: Parsing headers for unrealTutorialsEditor
+[2019.06.10-11.08.10:099][858]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hiszp\Documents\unrealTutorials\unrealTutorials.uproject" "C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\unrealTutorialsEditor\Development\unrealTutorialsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.06.10-11.08.10:099][858]CompilerResultsLog: Reflection code generated for unrealTutorialsEditor in 5.5220429 seconds
+[2019.06.10-11.08.10:099][858]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.06.10-11.08.10:099][858]CompilerResultsLog: Building 7 actions with 12 processes...
+[2019.06.10-11.08.10:099][858]CompilerResultsLog:   [1/7] FloatingActor.cpp
+[2019.06.10-11.08.10:099][858]CompilerResultsLog:   [2/7] unrealTutorials.init.gen.cpp
+[2019.06.10-11.08.10:099][858]CompilerResultsLog:   [3/7] MyPawn.cpp
+[2019.06.10-11.08.10:099][858]CompilerResultsLog:   [4/7] MyPawn.gen.cpp
+[2019.06.10-11.08.10:099][858]CompilerResultsLog:   [5/7] UE4Editor-unrealTutorials-0975.lib
+[2019.06.10-11.08.10:099][858]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-0975.lib and object C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-0975.exp
+[2019.06.10-11.08.10:099][858]CompilerResultsLog:   [6/7] UE4Editor-unrealTutorials-0975.dll
+[2019.06.10-11.08.10:099][858]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-0975.suppressed.lib and object C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-0975.suppressed.exp
+[2019.06.10-11.08.10:099][858]CompilerResultsLog:   [7/7] unrealTutorialsEditor.target
+[2019.06.10-11.08.10:099][858]CompilerResultsLog: Total time in Parallel executor: 11.57 seconds
+[2019.06.10-11.08.10:099][858]CompilerResultsLog: Total execution time: 19.25 seconds
+[2019.06.10-11.08.10:099][858]LogMainFrame: MainFrame: Module compiling took 19.326 seconds
+[2019.06.10-11.08.10:124][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.06.10-11.08.10:136][858]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2735 classes and 663 folders.
+[2019.06.10-11.08.10:136][858]Display: HotReload took 19.4s.
+[2019.06.10-11.08.10:137][858]Warning: HotReload operation took 19.4s.
+[2019.06.10-11.08.10:570][858]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.06.10-11.08.10:579][858]LogHotReload: New module detected: UE4Editor-unrealTutorials-0975.dll
+[2019.06.10-11.08.10:604][859]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.10-11.08.10:649][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.06.10-11.08.10:730][859]LogClass: Could not find existing class MyPawn in package /Script/unrealTutorials for HotReload, assuming new class
+[2019.06.10-11.08.10:733][859]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0005 seconds. Added 3 classes and 2 folders.
+[2019.06.10-11.08.10:735][859]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-11.08.10:778][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.06.10-11.08.10:789][859]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2736 classes and 663 folders.
+[2019.06.10-11.08.10:792][859]Display: HotReload took  0.2s.
+[2019.06.10-11.09.02:397][ 13]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (51.598 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.10-11.16.59:672][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.06.10-11.16.59:772][437]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default_Auto250387F914A78B30C94D4338613597607.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2019.06.10-11.16.59:775][437]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.127
+[2019.06.10-11.16.59:775][437]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.127
+[2019.06.10-11.18.35:567][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-11.18.35:642][808]Candidate modules for hot reload:
+[2019.06.10-11.18.35:642][808]  unrealTutorials
+[2019.06.10-11.18.35:642][808]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=unrealTutorials,2977 Win64 Development -TargetType=Editor -Project="C:/Users/hiszp/Documents/unrealTutorials/unrealTutorials.uproject" "C:/Users/hiszp/Documents/unrealTutorials/unrealTutorials.uproject"  -IgnoreJunk]
+[2019.06.10-11.18.35:645][808]Warning: Starting HotReload took  0.0s.
+[2019.06.10-11.18.38:947][  7]CompilerResultsLog: New page: Compilation - 10 Jun 2019 15:18:38
+[2019.06.10-11.18.38:947][  7]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hiszp\Documents\unrealTutorials).
+[2019.06.10-11.18.38:947][  7]CompilerResultsLog: Creating makefile for unrealTutorialsEditor (ini files are newer than makefile)
+[2019.06.10-11.18.38:947][  7]CompilerResultsLog: Parsing headers for unrealTutorialsEditor
+[2019.06.10-11.18.38:947][  7]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hiszp\Documents\unrealTutorials\unrealTutorials.uproject" "C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\unrealTutorialsEditor\Development\unrealTutorialsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.06.10-11.18.38:947][  7]CompilerResultsLog: Error: C:/Users/hiszp/Documents/unrealTutorials/Source/unrealTutorials/MyPawn.h(8) : Error: #include found after .generated.h file - the .generated.h file should always be the last #include in a header
+[2019.06.10-11.18.38:947][  7]LogMainFrame: MainFrame: Module compiling took 3.307 seconds
+[2019.06.10-11.18.38:947][  7]Warning: HotReload failed, recompile failed
+[2019.06.10-11.19.04:753][942]LogSlate: Window 'Message Log' being destroyed
+[2019.06.10-11.19.04:758][942]LogSlate: Window 'Message Log' being destroyed
+[2019.06.10-11.19.05:484][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-11.19.05:542][988]Candidate modules for hot reload:
+[2019.06.10-11.19.05:542][988]  unrealTutorials
+[2019.06.10-11.19.05:542][988]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=unrealTutorials,4618 Win64 Development -TargetType=Editor -Project="C:/Users/hiszp/Documents/unrealTutorials/unrealTutorials.uproject" "C:/Users/hiszp/Documents/unrealTutorials/unrealTutorials.uproject"  -IgnoreJunk]
+[2019.06.10-11.19.05:545][988]Warning: Starting HotReload took  0.0s.
+[2019.06.10-11.19.14:901][550]CompilerResultsLog: New page: Compilation - 10 Jun 2019 15:19:14
+[2019.06.10-11.19.14:901][550]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hiszp\Documents\unrealTutorials).
+[2019.06.10-11.19.14:901][550]CompilerResultsLog: Creating makefile for unrealTutorialsEditor (ini files are newer than makefile)
+[2019.06.10-11.19.14:901][550]CompilerResultsLog: Parsing headers for unrealTutorialsEditor
+[2019.06.10-11.19.14:901][550]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hiszp\Documents\unrealTutorials\unrealTutorials.uproject" "C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\unrealTutorialsEditor\Development\unrealTutorialsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.06.10-11.19.14:901][550]CompilerResultsLog: Reflection code generated for unrealTutorialsEditor in 5.7011081 seconds
+[2019.06.10-11.19.14:901][550]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.06.10-11.19.14:901][550]CompilerResultsLog: Building 6 actions with 12 processes...
+[2019.06.10-11.19.14:901][550]CompilerResultsLog:   [1/6] unrealTutorials.init.gen.cpp
+[2019.06.10-11.19.14:901][550]CompilerResultsLog:   [2/6] MyPawn.cpp
+[2019.06.10-11.19.14:901][550]CompilerResultsLog:   [3/6] MyPawn.gen.cpp
+[2019.06.10-11.19.14:901][550]CompilerResultsLog:   [4/6] UE4Editor-unrealTutorials-4618.lib
+[2019.06.10-11.19.14:901][550]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-4618.lib and object C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-4618.exp
+[2019.06.10-11.19.14:901][550]CompilerResultsLog:   [5/6] UE4Editor-unrealTutorials-4618.dll
+[2019.06.10-11.19.14:901][550]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-4618.suppressed.lib and object C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-4618.suppressed.exp
+[2019.06.10-11.19.14:901][550]CompilerResultsLog:   [6/6] unrealTutorialsEditor.target
+[2019.06.10-11.19.14:901][550]CompilerResultsLog: Total time in Parallel executor: 1.75 seconds
+[2019.06.10-11.19.14:901][550]CompilerResultsLog: Total execution time: 9.29 seconds
+[2019.06.10-11.19.14:901][550]LogMainFrame: MainFrame: Module compiling took 9.362 seconds
+[2019.06.10-11.19.14:926][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2019.06.10-11.19.14:939][550]LogClass: Could not find existing class MyPawn in package /Script/unrealTutorials for HotReload, assuming new class
+[2019.06.10-11.19.14:942][550]LogHotReload: Re-instancing MyPawn after hot-reload.
+[2019.06.10-11.19.14:999][550]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2019.06.10-11.19.15:001][550]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-11.19.15:043][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.06.10-11.19.15:056][550]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2736 classes and 663 folders.
+[2019.06.10-11.19.15:057][550]Display: HotReload took  9.5s.
+[2019.06.10-11.19.30:023][664]LogHotReload: New module detected: UE4Editor-unrealTutorials-0014.dll
+[2019.06.10-11.19.30:705][667]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.10-11.19.30:737][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2019.06.10-11.19.30:752][667]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2019.06.10-11.19.30:753][667]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-11.19.30:796][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.06.10-11.19.30:808][667]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2736 classes and 663 folders.
+[2019.06.10-11.19.30:810][667]Display: HotReload took  0.1s.
+[2019.06.10-11.19.46:362][937]Cmd: POLY SELECT REVERSE
+[2019.06.10-11.20.40:035][277]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.20.43:423][473]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.20.44:400][473]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.06.10-11.23.03:579][230]LogSlate: Window 'Project Settings' being destroyed
+[2019.06.10-11.23.03:583][230]LogSlate: Window 'Project Settings' being destroyed
+[2019.06.10-11.23.04:228][267]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.23.04:259][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.06.10-11.23.04:350][267]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default4910ED7F4332DE797FF9DF860EF5C32D.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.06.10-11.23.04:406][267]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default_BuiltData62CCB56246CC9ACF8E97D3B8D4E53740.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.06.10-11.23.14:370][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-11.23.18:165][ 90]LogEditor: Attempting to add actor of class 'MyPawn' to level at 150.00,-170.00,30.00
+[2019.06.10-11.23.19:012][140]LogEditor: Attempting to add actor of class 'MyPawn' to level at -220.00,270.00,250.00
+[2019.06.10-11.23.21:482][288]LogEditor: Attempting to add actor of class 'MyPawn' to level at 480.00,-60.00,30.00
+[2019.06.10-11.23.47:461][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-11.24.09:242][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2019.06.10-11.24.09:334][140]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default85A10A1E471876D7EF84569DEB85B6A2.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.06.10-11.24.09:386][140]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default_BuiltDataD18754EA42016BD219D73E946F400A1D.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.06.10-11.27.25:806][884]LogHotReload: New module detected: UE4Editor-unrealTutorials-0015.dll
+[2019.06.10-11.27.26:823][888]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.10-11.27.26:856][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2019.06.10-11.27.26:872][888]LogClass: Could not find existing class MyPawn in package /Script/unrealTutorials for HotReload, assuming new class
+[2019.06.10-11.27.26:876][888]LogHotReload: Re-instancing MyPawn after hot-reload.
+[2019.06.10-11.27.26:976][888]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2019.06.10-11.27.26:979][888]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-11.27.27:026][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.06.10-11.27.27:037][888]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2736 classes and 663 folders.
+[2019.06.10-11.27.27:039][888]Display: HotReload took  0.2s.
+[2019.06.10-11.28.42:866][114]LogHotReload: New module detected: UE4Editor-unrealTutorials-0016.dll
+[2019.06.10-11.28.43:885][118]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.10-11.28.43:918][118]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.06.10-11.28.43:934][118]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2019.06.10-11.28.43:936][118]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-11.28.43:981][118]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.06.10-11.28.43:991][118]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2736 classes and 663 folders.
+[2019.06.10-11.28.43:993][118]Display: HotReload took  0.1s.
+[2019.06.10-11.28.52:469][455]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-11.28.52:552][460]LogTemp: Repeating last play command: Simulate
+[2019.06.10-11.28.52:563][460]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.28.52:563][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-11.28.52:563][460]PIE: New page: SIE session: Minimal_Default (10 Jun 2019 15:28:52)
+[2019.06.10-11.28.52:563][460]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-11.28.52:567][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003224s)
+[2019.06.10-11.28.52:567][460]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-11.28.52:567][460]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2019.06.10-11.28.52:567][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003900s)
+[2019.06.10-11.28.52:592][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.06.10-11.28.52:601][460]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-11.28.52:615][460]LogInit: FAudioDevice initialized.
+[2019.06.10-11.28.52:641][460]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-11.28.52:642][460]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-13.28.52
+[2019.06.10-11.28.52:643][460]LogWorld: Bringing up level for play took: 0.001133
+[2019.06.10-11.28.52:656][460]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.85
+[2019.06.10-11.28.52:666][460]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.28.55:283][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.06.10-11.28.56:835][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-11.28.56:903][709]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.28.56:904][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-11.28.56:930][709]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-11.28.56:930][709]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.28.56:956][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-11.28.56:958][709]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.06.10-11.28.57:017][713]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.06.10-11.28.57:800][760]LogTemp: Repeating last play command: Simulate
+[2019.06.10-11.28.57:810][760]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.28.57:810][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-11.28.57:810][760]PIE: New page: SIE session: Minimal_Default (10 Jun 2019 15:28:57)
+[2019.06.10-11.28.57:810][760]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-11.28.57:813][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002932s)
+[2019.06.10-11.28.57:813][760]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-11.28.57:813][760]LogPlayLevel: PIE: World Init took: (0.000453s)
+[2019.06.10-11.28.57:813][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003517s)
+[2019.06.10-11.28.57:837][760]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.06.10-11.28.57:846][760]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-11.28.57:858][760]LogInit: FAudioDevice initialized.
+[2019.06.10-11.28.57:884][760]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-11.28.57:885][760]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-13.28.57
+[2019.06.10-11.28.57:885][760]LogWorld: Bringing up level for play took: 0.000740
+[2019.06.10-11.28.57:897][760]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.091
+[2019.06.10-11.28.57:899][760]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.28.59:689][867]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.28.59:689][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-11.28.59:715][867]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-11.28.59:715][867]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.28.59:740][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-11.28.59:743][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.06.10-11.28.59:801][871]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.06.10-11.29.02:495][ 31]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.29.02:495][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-11.29.02:495][ 31]PIE: New page: PIE session: Minimal_Default (10 Jun 2019 15:29:02)
+[2019.06.10-11.29.02:495][ 31]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-11.29.02:498][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002928s)
+[2019.06.10-11.29.02:498][ 31]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-11.29.02:499][ 31]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2019.06.10-11.29.02:499][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003571s)
+[2019.06.10-11.29.02:522][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.06.10-11.29.02:532][ 31]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-11.29.02:543][ 31]LogInit: FAudioDevice initialized.
+[2019.06.10-11.29.02:573][ 31]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-11.29.02:574][ 31]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-13.29.02
+[2019.06.10-11.29.02:574][ 31]LogWorld: Bringing up level for play took: 0.000733
+[2019.06.10-11.29.02:587][ 31]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.781
+[2019.06.10-11.29.02:587][ 31]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.29.16:166][845]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.29.16:167][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-11.29.16:209][845]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-11.29.16:210][845]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.29.16:242][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-11.29.16:244][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.06.10-11.29.16:278][847]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.06.10-11.29.18:080][954]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.29.19:936][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.29.20:285][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.29.21:781][176]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.29.22:530][176]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.06.10-11.29.34:945][919]LogSlate: Window 'Project Settings' being destroyed
+[2019.06.10-11.29.34:950][919]LogSlate: Window 'Project Settings' being destroyed
+[2019.06.10-11.29.42:480][370]LogEditorViewport: Clicking on Actor (LMB): MyPawn (MyPawn2)
+[2019.06.10-11.29.52:838][987]LogEditorViewport: Clicking on Actor (LMB): MyPawn (MyPawn2)
+[2019.06.10-11.30.02:397][557]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-11.30.13:059][191]Cmd: TRANSACTION UNDO
+[2019.06.10-11.30.13:059][191]LogEditorTransaction: Undo Rotate Actors
+[2019.06.10-11.30.14:021][248]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.06.10-11.30.17:731][467]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.06.10-11.30.18:383][505]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.30.18:413][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2019.06.10-11.30.18:506][505]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_DefaultBF257A344ED6974105461E99AA2DF60F.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.06.10-11.30.18:562][505]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default_BuiltDataB51803794B44B1EB68781BB9ACBCA18E.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.06.10-11.30.19:266][547]LogEditorViewport: Clicking on Actor (LMB): MyPawn (MyPawn2)
+[2019.06.10-11.30.20:509][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-11.30.23:980][820]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.10-11.30.23:988][820]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.30.23:989][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-11.30.23:989][820]PIE: New page: PIE session: Minimal_Default (10 Jun 2019 15:30:23)
+[2019.06.10-11.30.23:989][820]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-11.30.23:992][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003019s)
+[2019.06.10-11.30.23:992][820]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-11.30.23:992][820]LogPlayLevel: PIE: World Init took: (0.000485s)
+[2019.06.10-11.30.23:992][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003612s)
+[2019.06.10-11.30.24:016][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2019.06.10-11.30.24:026][820]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-11.30.24:039][820]LogInit: FAudioDevice initialized.
+[2019.06.10-11.30.24:066][820]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-11.30.24:067][820]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-13.30.24
+[2019.06.10-11.30.24:067][820]LogWorld: Bringing up level for play took: 0.000776
+[2019.06.10-11.30.24:080][820]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.273
+[2019.06.10-11.30.24:080][820]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.30.49:947][370]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.30.49:947][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-11.30.49:973][370]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-11.30.49:973][370]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.30.49:999][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-11.30.50:002][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.06.10-11.30.50:050][373]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.06.10-11.30.56:307][747]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.31.00:273][985]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.31.01:554][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.31.02:301][ 62]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.06.10-11.31.33:926][949]LogSlate: Window 'Project Settings' being destroyed
+[2019.06.10-11.31.33:931][949]LogSlate: Window 'Project Settings' being destroyed
+[2019.06.10-11.31.34:506][982]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.31.34:535][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.06.10-11.31.34:631][982]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default488BC2B04E6066776DD3BA84CE76465D.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.06.10-11.31.34:683][982]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default_BuiltDataE98A27814D0B5DA2B439A4BAD59D9301.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.06.10-11.42.30:869][  9]LogHotReload: New module detected: UE4Editor-unrealTutorials-0018.dll
+[2019.06.10-11.42.31:556][ 12]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.10-11.42.31:593][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2019.06.10-11.42.31:606][ 12]LogClass: Could not find existing class MyPawn in package /Script/unrealTutorials for HotReload, assuming new class
+[2019.06.10-11.42.31:611][ 12]LogHotReload: Re-instancing MyPawn after hot-reload.
+[2019.06.10-11.42.31:668][ 12]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2019.06.10-11.42.31:670][ 12]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-11.42.31:713][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2019.06.10-11.42.31:723][ 12]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2736 classes and 663 folders.
+[2019.06.10-11.42.31:725][ 12]Display: HotReload took  0.2s.
+[2019.06.10-11.44.01:026][386]LogHotReload: New module detected: UE4Editor-unrealTutorials-0019.dll
+[2019.06.10-11.44.02:066][448]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.10-11.44.02:071][448]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.44.02:110][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.06.10-11.44.02:128][448]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2019.06.10-11.44.02:130][448]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-11.44.02:172][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.06.10-11.44.02:182][448]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2736 classes and 663 folders.
+[2019.06.10-11.44.02:185][448]Display: HotReload took  0.1s.
+[2019.06.10-11.44.04:989][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-11.44.05:038][619]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.10-11.44.05:050][619]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.44.05:050][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-11.44.05:050][619]PIE: New page: PIE session: Minimal_Default (10 Jun 2019 15:44:05)
+[2019.06.10-11.44.05:050][619]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-11.44.05:053][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003464s)
+[2019.06.10-11.44.05:054][619]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-11.44.05:054][619]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2019.06.10-11.44.05:054][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004470s)
+[2019.06.10-11.44.05:079][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2019.06.10-11.44.05:088][619]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-11.44.05:104][619]LogInit: FAudioDevice initialized.
+[2019.06.10-11.44.05:132][619]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-11.44.05:133][619]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-13.44.05
+[2019.06.10-11.44.05:133][619]LogWorld: Bringing up level for play took: 0.000832
+[2019.06.10-11.44.05:145][619]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.661
+[2019.06.10-11.44.05:146][619]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.44.35:067][413]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.44.36:568][503]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.44.36:568][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-11.44.36:596][503]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-11.44.36:596][503]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.44.36:622][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-11.44.36:625][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.06.10-11.44.36:684][507]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.06.10-11.44.41:351][576]LogEditorViewport: Clicking on Actor (LMB): MyPawn (MyPawn2)
+[2019.06.10-11.44.44:982][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-11.45.04:393][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2019.06.10-11.45.11:295][964]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-11.45.19:717][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2019.06.10-11.45.21:758][591]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2019.06.10-11.45.21:779][591]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.45.22:671][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2019.06.10-11.53.31:288][ 24]LogHotReload: New module detected: UE4Editor-unrealTutorials-0023.dll
+[2019.06.10-11.53.31:975][ 27]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.10-11.53.32:015][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.06.10-11.53.32:033][ 27]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2019.06.10-11.53.32:034][ 27]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-11.53.32:076][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2019.06.10-11.53.32:087][ 27]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2736 classes and 663 folders.
+[2019.06.10-11.53.32:089][ 27]Display: HotReload took  0.1s.
+[2019.06.10-11.53.35:906][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-11.53.35:973][131]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.10-11.53.35:985][131]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.53.35:985][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-11.53.35:985][131]PIE: New page: PIE session: Minimal_Default (10 Jun 2019 15:53:35)
+[2019.06.10-11.53.35:985][131]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-11.53.35:989][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003814s)
+[2019.06.10-11.53.35:989][131]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-11.53.35:990][131]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2019.06.10-11.53.35:990][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004747s)
+[2019.06.10-11.53.36:014][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.06.10-11.53.36:023][131]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-11.53.36:037][131]LogInit: FAudioDevice initialized.
+[2019.06.10-11.53.36:068][131]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-11.53.36:069][131]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-13.53.36
+[2019.06.10-11.53.36:069][131]LogWorld: Bringing up level for play took: 0.000841
+[2019.06.10-11.53.36:081][131]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.275
+[2019.06.10-11.53.36:082][131]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.53.41:175][436]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.53.41:175][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-11.53.41:207][436]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-11.53.41:207][436]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.53.41:233][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-11.53.41:236][436]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.06.10-11.53.41:284][439]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.06.10-11.53.42:244][496]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.53.43:178][552]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.53.44:824][651]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.53.45:557][651]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.06.10-11.54.00:968][570]Cmd: TRANSACTION UNDO
+[2019.06.10-11.54.00:968][570]LogEditorTransaction: Undo Remove Action Mapping Group
+[2019.06.10-11.54.01:820][621]Cmd: TRANSACTION UNDO
+[2019.06.10-11.54.01:820][621]LogEditorTransaction: Undo Add Action Mapping To Group
+[2019.06.10-11.54.21:233][782]LogSlate: Window 'Project Settings' being destroyed
+[2019.06.10-11.54.21:237][782]LogSlate: Window 'Project Settings' being destroyed
+[2019.06.10-11.54.21:680][808]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-11.54.21:722][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.06.10-11.54.21:814][808]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default66F818194DC0F1A55260D0AD1EBC0094.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.06.10-11.54.21:873][808]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/Saved/Minimal_Default_BuiltDataE269930F4AEBD983D87091AD1BC5FB61.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.06.10-11.55.22:823][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.06.10-11.55.24:080][249]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.06.10-11.55.39:072][651]LogHotReload: New module detected: UE4Editor-unrealTutorials-0024.dll
+[2019.06.10-11.55.39:750][654]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.10-11.55.39:790][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2019.06.10-11.55.39:807][654]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2019.06.10-11.55.39:809][654]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-11.55.39:854][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.06.10-11.55.39:864][654]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2736 classes and 663 folders.
+[2019.06.10-11.55.39:866][654]Display: HotReload took  0.1s.
+[2019.06.10-11.55.41:678][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-11.55.41:747][659]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.10-11.55.41:759][659]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.55.41:759][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-11.55.41:759][659]PIE: New page: PIE session: Minimal_Default (10 Jun 2019 15:55:41)
+[2019.06.10-11.55.41:759][659]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-11.55.41:762][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002944s)
+[2019.06.10-11.55.41:762][659]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-11.55.41:762][659]LogPlayLevel: PIE: World Init took: (0.000461s)
+[2019.06.10-11.55.41:762][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003514s)
+[2019.06.10-11.55.41:786][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2019.06.10-11.55.41:795][659]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-11.55.41:809][659]LogInit: FAudioDevice initialized.
+[2019.06.10-11.55.41:839][659]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-11.55.41:840][659]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-13.55.41
+[2019.06.10-11.55.41:840][659]LogWorld: Bringing up level for play took: 0.000775
+[2019.06.10-11.55.41:853][659]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.047
+[2019.06.10-11.55.41:854][659]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.56.12:044][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.56.12:044][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-11.56.12:075][464]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-11.56.12:075][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-11.56.12:101][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-11.56.12:103][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.06.10-11.56.12:147][467]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.06.10-12.01.30:615][525]LogHotReload: New module detected: UE4Editor-unrealTutorials-0025.dll
+[2019.06.10-12.01.31:631][529]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.10-12.01.31:671][529]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2019.06.10-12.01.31:687][529]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2019.06.10-12.01.31:690][529]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-12.01.31:733][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.06.10-12.01.31:744][529]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2736 classes and 663 folders.
+[2019.06.10-12.01.31:746][529]Display: HotReload took  0.1s.
+[2019.06.10-12.01.49:335][581]LogHotReload: New module detected: UE4Editor-unrealTutorials-0026.dll
+[2019.06.10-12.01.50:372][585]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.10-12.01.50:423][585]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.06.10-12.01.50:447][585]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0005 seconds. Added 3 classes and 2 folders.
+[2019.06.10-12.01.50:450][585]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-12.01.50:503][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.06.10-12.01.50:515][585]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2736 classes and 663 folders.
+[2019.06.10-12.01.50:517][585]Display: HotReload took  0.1s.
+[2019.06.10-12.02.10:776][645]LogHotReload: New module detected: UE4Editor-unrealTutorials-0027.dll
+[2019.06.10-12.02.11:458][648]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.10-12.02.11:496][648]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.06.10-12.02.11:511][648]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2019.06.10-12.02.11:513][648]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-12.02.11:554][648]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.06.10-12.02.11:565][648]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2736 classes and 663 folders.
+[2019.06.10-12.02.11:567][648]Display: HotReload took  0.1s.
+[2019.06.10-12.02.15:155][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2019.06.10-12.02.16:634][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.10-12.02.16:701][808]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.10-12.02.16:714][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-12.02.16:714][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-12.02.16:714][808]PIE: New page: PIE session: Minimal_Default (10 Jun 2019 16:02:16)
+[2019.06.10-12.02.16:714][808]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-12.02.16:717][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003271s)
+[2019.06.10-12.02.16:718][808]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-12.02.16:718][808]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2019.06.10-12.02.16:718][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004232s)
+[2019.06.10-12.02.16:742][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.06.10-12.02.16:750][808]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-12.02.16:763][808]LogInit: FAudioDevice initialized.
+[2019.06.10-12.02.16:792][808]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-12.02.16:793][808]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-14.02.16
+[2019.06.10-12.02.16:793][808]LogWorld: Bringing up level for play took: 0.000835
+[2019.06.10-12.02.16:805][808]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1
+[2019.06.10-12.02.16:806][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-12.02.25:494][328]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-12.02.25:494][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-12.02.25:528][328]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-12.02.25:529][328]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-12.02.25:562][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-12.02.25:565][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.06.10-12.02.25:595][330]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.06.10-12.28.18:101][269]LogHotReload: New module detected: UE4Editor-unrealTutorials-0028.dll
+[2019.06.10-12.28.19:119][273]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.10-12.28.19:160][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.06.10-12.28.19:177][273]LogContentBrowser: Native class hierarchy updated for 'unrealTutorials' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2019.06.10-12.28.19:178][273]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.10-12.28.19:221][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2019.06.10-12.28.19:231][273]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2736 classes and 663 folders.
+[2019.06.10-12.28.19:234][273]Display: HotReload took  0.1s.
+[2019.06.10-12.28.42:540][702]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.10-12.28.42:552][702]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-12.28.42:552][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.10-12.28.42:552][702]PIE: New page: PIE session: Minimal_Default (10 Jun 2019 16:28:42)
+[2019.06.10-12.28.42:552][702]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.06.10-12.28.42:555][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003168s)
+[2019.06.10-12.28.42:556][702]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.06.10-12.28.42:556][702]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2019.06.10-12.28.42:556][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003897s)
+[2019.06.10-12.28.42:579][702]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.06.10-12.28.42:589][702]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.10-12.28.42:602][702]LogInit: FAudioDevice initialized.
+[2019.06.10-12.28.42:602][702]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.10-12.28.42:630][702]LogLoad: Game class is 'GameModeBase'
+[2019.06.10-12.28.42:630][702]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.06.10-14.28.42
+[2019.06.10-12.28.42:631][702]LogWorld: Bringing up level for play took: 0.000909
+[2019.06.10-12.28.42:644][702]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.838
+[2019.06.10-12.28.42:644][702]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-12.28.51:506][233]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-12.28.51:506][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-12.28.51:536][233]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.10-12.28.51:537][233]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.06.10-12.28.51:563][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.10-12.28.51:565][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.06.10-12.28.51:611][236]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.06.10-12.29.19:930][412]LogSlate: FSceneViewport::OnFocusLost() reason 0

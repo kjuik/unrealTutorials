@@ -1,0 +1,16 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hiszp\Documents\unrealTutorials).
+  Creating makefile for unrealTutorialsEditor (ini files are newer than makefile)
+  Parsing headers for unrealTutorialsEditor
+    Running UnrealHeaderTool "C:\Users\hiszp\Documents\unrealTutorials\unrealTutorials.uproject" "C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\unrealTutorialsEditor\Development\unrealTutorialsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for unrealTutorialsEditor in 12.2499969 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 12 processes...
+    [1/5] MyPawn.gen.cpp
+    [2/5] MyPawn.cpp
+    [3/5] UE4Editor-unrealTutorials-0029.lib
+       Creating library C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-0029.lib and object C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-0029.exp
+    [4/5] UE4Editor-unrealTutorials-0029.dll
+       Creating library C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-0029.suppressed.lib and object C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\UE4Editor-unrealTutorials-0029.suppressed.exp
+    [5/5] unrealTutorialsEditor.target
+  Total time in Parallel executor: 4.88 seconds
+  Total execution time: 19.62 seconds

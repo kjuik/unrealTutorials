@@ -1,0 +1,7 @@
+C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\Definitions.unrealTutorials.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\hiszp\Documents\unrealTutorials\Source\unrealTutorials/MyPawn.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+c:\users\hiszp\documents\unrealtutorials\intermediate\build\win64\ue4editor\inc\unrealtutorials\MyPawn.generated.h

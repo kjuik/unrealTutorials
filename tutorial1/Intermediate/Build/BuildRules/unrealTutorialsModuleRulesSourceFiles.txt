@@ -1,0 +1,3 @@
+C:\Users\hiszp\Documents\unrealTutorials\Source\unrealTutorials\unrealTutorials.Build.cs
+C:\Users\hiszp\Documents\unrealTutorials\Source\unrealTutorials.Target.cs
+C:\Users\hiszp\Documents\unrealTutorials\Source\unrealTutorialsEditor.Target.cs

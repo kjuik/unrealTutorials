@@ -1,0 +1,3 @@
+C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Development\unrealTutorials\Definitions.unrealTutorials.h
+c:\users\hiszp\documents\unrealtutorials\source\unrealtutorials\FloatingActor.h
+C:\Users\hiszp\Documents\unrealTutorials\Intermediate\Build\Win64\UE4Editor\Inc\unrealTutorials\FloatingActor.generated.h
