@@ -15,7 +15,6 @@ AFloatingActor::AFloatingActor()
 void AFloatingActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -23,10 +22,11 @@ void AFloatingActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	FVector NewLocation = GetActorLocation();
-	float DeltaHeight = (FMath::Sin(RunningTime + DeltaTime) - FMath::Sin(RunningTime));
-	NewLocation.Z += DeltaHeight * 20.0f;       //Scale our height by a factor of 20
+	FVector DeltaMovement = FVector(FMath::Sin((RunningTime + DeltaTime) * MovementFrequency.X) - FMath::Sin(RunningTime * MovementFrequency.X),
+									FMath::Sin((RunningTime + DeltaTime) * MovementFrequency.Y) - FMath::Sin(RunningTime * MovementFrequency.Y),
+									FMath::Sin((RunningTime + DeltaTime) * MovementFrequency.Z) - FMath::Sin(RunningTime * MovementFrequency.Z));
 	RunningTime += DeltaTime;
-	SetActorLocation(NewLocation);
+
+	SetActorLocation(GetActorLocation() + DeltaMovement * Amplitude);
 }
 
