@@ -12,14 +12,19 @@ class BATTERYCOLLECTOR_API APickup : public AActor
 	GENERATED_BODY()
 	
 public:	
-	// Sets default values for this actor's properties
 	APickup();
 
 	FORCEINLINE class UStaticMeshComponent* GetMesh() const { return PickupMesh; }
 
+	UFUNCTION(BlueprintPure, Category = "Pickup")
+	bool IsActive();
+	UFUNCTION(BlueprintCallable, Category = "Pickup")
+	void SetActive(bool NewPickupState);
+
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	bool bIsActive;
 
 private:	
 	UPROPERTY(VisibleAnywhere, BlueprintReadonly, Category = "Pickup", meta = (AllowPrivateAccess = "true"))

@@ -1,16 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hiszp\Documents\unrealTutorials).
   Parsing headers for BatteryCollectorEditor
     Running UnrealHeaderTool "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\BatteryCollector.uproject" "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BatteryCollectorEditor in 5.7452781 seconds
+  Reflection code generated for BatteryCollectorEditor in 5.9596712 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 6 actions with 12 processes...
     [1/6] BatteryCollector.init.gen.cpp
-    [2/6] Pickup.cpp
-    [3/6] Pickup.gen.cpp
-    [4/6] UE4Editor-BatteryCollector-0002.lib
-       Creating library C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-0002.lib and object C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-0002.exp
-    [5/6] UE4Editor-BatteryCollector-0002.dll
-       Creating library C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-0002.suppressed.lib and object C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-0002.suppressed.exp
+    [2/6] SpawnVolume.gen.cpp
+    [3/6] SpawnVolume.cpp
+    [4/6] UE4Editor-BatteryCollector-0009.lib
+       Creating library C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-0009.lib and object C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-0009.exp
+    [5/6] UE4Editor-BatteryCollector-0009.dll
+       Creating library C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-0009.suppressed.lib and object C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-0009.suppressed.exp
     [6/6] BatteryCollectorEditor.target
-  Total time in Parallel executor: 1.68 seconds
-  Total execution time: 8.20 seconds
+  Total time in Parallel executor: 2.14 seconds
+  Total execution time: 8.89 seconds

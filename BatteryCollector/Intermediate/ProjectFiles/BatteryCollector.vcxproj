@@ -364,8 +364,12 @@
     <NMakeOutput>..\..\Binaries\HTML5\BatteryCollector-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\BatteryCollector\BatteryPickup.cpp" />
     <ClCompile Include="..\..\Source\BatteryCollector\Pickup.cpp" />
+    <ClCompile Include="..\..\Source\BatteryCollector\SpawnVolume.cpp" />
+    <ClInclude Include="..\..\Source\BatteryCollector\BatteryPickup.h" />
     <ClInclude Include="..\..\Source\BatteryCollector\Pickup.h" />
+    <ClInclude Include="..\..\Source\BatteryCollector\SpawnVolume.h" />
     <None Include="..\..\BatteryCollector.uproject" />
     <None Include="..\..\Source\BatteryCollector.Target.cs" />
     <None Include="..\..\Source\BatteryCollectorEditor.Target.cs" />

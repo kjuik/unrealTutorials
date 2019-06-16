@@ -10,9 +10,13 @@
 "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollector.cpp.obj"
 "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollectorCharacter.cpp.obj"
 "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollectorGameMode.cpp.obj"
+"C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryPickup.cpp.obj"
+"C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\Pickup.cpp.obj"
 "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollector.init.gen.cpp.obj"
 "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollectorCharacter.gen.cpp.obj"
 "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryCollectorGameMode.gen.cpp.obj"
+"C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\BatteryPickup.gen.cpp.obj"
+"C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\Pickup.gen.cpp.obj"
 "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\Default.rc2.res"
 /OUT:"C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector.lib"
 /INCLUDE:IMPLEMENT_MODULE_BatteryCollector

@@ -13,8 +13,46 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BATTERYCOLLECTOR_Pickup_generated_h
 
-#define BatteryCollector_Source_BatteryCollector_Pickup_h_12_RPC_WRAPPERS
-#define BatteryCollector_Source_BatteryCollector_Pickup_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define BatteryCollector_Source_BatteryCollector_Pickup_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetActive) \
+	{ \
+		P_GET_UBOOL(Z_Param_NewPickupState); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetActive(Z_Param_NewPickupState); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIsActive) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->IsActive(); \
+		P_NATIVE_END; \
+	}
+
+
+#define BatteryCollector_Source_BatteryCollector_Pickup_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetActive) \
+	{ \
+		P_GET_UBOOL(Z_Param_NewPickupState); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetActive(Z_Param_NewPickupState); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIsActive) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->IsActive(); \
+		P_NATIVE_END; \
+	}
+
+
 #define BatteryCollector_Source_BatteryCollector_Pickup_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPickup(); \
