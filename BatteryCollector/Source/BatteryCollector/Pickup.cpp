@@ -31,3 +31,9 @@ void APickup::SetActive(bool NewPickupState)
 {
 	bIsActive = NewPickupState;
 }
+
+void APickup::WasCollected_Implementation() 
+{
+	FString PickupDebugString = GetName();
+	UE_LOG(LogClass, Log, TEXT("You have collected %s"), *PickupDebugString);
+}

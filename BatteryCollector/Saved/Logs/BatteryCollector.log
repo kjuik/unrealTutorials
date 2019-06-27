@@ -1,4 +1,4 @@
-﻿Log file open, 06/16/19 21:06:54
+﻿Log file open, 06/27/19 21:57:56
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: BatteryCollector
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.415589
+LogStats: Stats thread started at 0.399173
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -156,993 +156,507 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.06.16-19.06.54:616][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.06.16-19.06.54:616][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.06.16-19.06.54:616][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Engine.ini]
-[2019.06.16-19.06.54:616][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.06.16-19.06.54:616][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Engine.ini]
-[2019.06.16-19.06.54:616][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Engine.ini]
-[2019.06.16-19.06.54:616][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.06.16-19.06.54:616][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.06.16-19.06.54:616][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.06.16-19.06.54:616][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.06.16-19.06.54:616][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.06.16-19.06.54:616][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.06.16-19.06.54:616][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.06.16-19.06.54:616][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.06.16-19.06.54:616][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.06.16-19.06.54:616][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Engine.ini]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.06.16-19.06.54:617][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Engine.ini]
-[2019.06.16-19.06.54:617][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Engine.ini]
-[2019.06.16-19.06.54:620][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.06.16-19.06.54:620][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
-[2019.06.16-19.06.54:621][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.06.16-19.06.54:621][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.06.16-19.06.54:621][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.06.16-19.06.54:621][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.06.16-19.06.54:621][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.06.16-19.06.54:621][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.06.16-19.06.54:621][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.06.16-19.06.54:621][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.06.16-19.06.54:621][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.06.16-19.06.54:621][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.06.16-19.06.54:621][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.06.16-19.06.54:621][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.06.16-19.06.54:621][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.06.16-19.06.54:621][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
-[2019.06.16-19.06.54:621][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.06.16-19.06.54:621][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.06.16-19.06.54:621][  0]LogInit: Selected Device Profile: [Windows]
-[2019.06.16-19.06.54:621][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.06.16-19.06.54:635][  0]LogHAL: Display: Platform has ~ 16 GB [17053306880 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.06.16-19.06.54:635][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.06.16-19.06.54:635][  0]LogInit: Going up to parent DeviceProfile []
-[2019.06.16-19.06.54:635][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
-[2019.06.16-19.06.54:635][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.06.16-19.06.54:635][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.06.16-19.06.54:635][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
-[2019.06.16-19.06.54:635][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.06.16-19.06.54:635][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
-[2019.06.16-19.06.54:635][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.06.16-19.06.54:635][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.06.16-19.06.54:635][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.06.16-19.06.54:635][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.06.16-19.06.54:635][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.06.16-19.06.54:635][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.06.16-19.06.54:635][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.06.16-19.06.54:636][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Engine.ini]
-[2019.06.16-19.06.54:636][  0]LogInit: Computer: LAPTOP-N6DQ3EP4
-[2019.06.16-19.06.54:636][  0]LogInit: User: hiszp
-[2019.06.16-19.06.54:636][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.06.16-19.06.54:636][  0]LogInit: High frequency timer resolution =2.156253 MHz
-[2019.06.16-19.06.54:637][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.06.16-19.06.54:637][  0]LogMemory: Platform Memory Stats for Windows
-[2019.06.16-19.06.54:637][  0]LogMemory: Process Physical Memory: 96.78 MB used, 96.78 MB peak
-[2019.06.16-19.06.54:637][  0]LogMemory: Process Virtual Memory: 90.04 MB used, 90.04 MB peak
-[2019.06.16-19.06.54:637][  0]LogMemory: Physical Memory: 6631.64 MB used,  9631.66 MB free, 16263.30 MB total
-[2019.06.16-19.06.54:637][  0]LogMemory: Virtual Memory: 4672.63 MB used,  134213056.00 MB free, 134217728.00 MB total
-[2019.06.16-19.06.54:656][  0]LogInit: Using OS detected language (en-GB).
-[2019.06.16-19.06.54:656][  0]LogInit: Using OS detected locale (en-GB).
-[2019.06.16-19.06.54:656][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2019.06.16-19.06.54:807][  0]LogInit: Setting process to per monitor DPI aware
-[2019.06.16-19.06.54:851][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.06.16-19.06.54:851][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.06.16-19.06.55:005][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.06.16-19.06.55:005][  0]LogD3D11RHI: D3D11 adapters:
-[2019.06.16-19.06.55:072][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2019.06.16-19.06.55:072][  0]LogD3D11RHI:       4018/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.06.16-19.06.55:083][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2019.06.16-19.06.55:083][  0]LogD3D11RHI:       128/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2019.06.16-19.06.55:085][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.06.16-19.06.55:085][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.06.16-19.06.55:085][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.06.16-19.06.55:092][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.06.16-19.06.55:092][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
-[2019.06.16-19.06.55:092][  0]LogWindows: EnumDisplayDevices:
-[2019.06.16-19.06.55:092][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:0 D:1)
-[2019.06.16-19.06.55:092][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.06.16-19.06.55:092][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.06.16-19.06.55:092][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2019.06.16-19.06.55:093][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2019.06.16-19.06.55:093][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2019.06.16-19.06.55:093][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2019.06.16-19.06.55:093][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.06.16-19.06.55:093][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2019.06.16-19.06.55:093][  0]LogD3D11RHI:   Driver Version: 430.86 (internal:26.21.14.3086, unified:430.86)
-[2019.06.16-19.06.55:093][  0]LogD3D11RHI:      Driver Date: 5-22-2019
-[2019.06.16-19.06.55:093][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2019.06.16-19.06.55:139][  0]LogD3D11RHI: Async texture creation enabled
-[2019.06.16-19.06.55:142][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.06.16-19.06.55:142][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.06.16-19.06.55:142][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.06.16-19.06.55:150][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.06.16-19.06.55:444][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.06.16-19.06.55:455][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.06.16-19.06.55:467][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.06.16-19.06.55:479][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.06.16-19.06.55:491][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.06.16-19.06.55:502][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.06.16-19.06.55:514][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.06.16-19.06.55:525][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.06.16-19.06.55:531][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.06.16-19.06.55:599][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.06.16-19.06.55:601][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.06.16-19.06.55:645][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.06.16-19.06.55:645][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.06.16-19.06.55:665][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.06.16-19.06.55:665][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.06.16-19.06.55:675][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.06.16-19.06.55:685][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.06.16-19.06.55:695][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.06.16-19.06.55:706][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.06.16-19.06.55:742][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.06.16-19.06.55:742][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.06.16-19.06.55:742][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.06.16-19.06.55:749][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.06.16-19.06.55:793][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Intermediate/Shaders/WorkingDirectory/8144/).
-[2019.06.16-19.06.55:793][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hiszp/AppData/Local/Temp/UnrealShaderWorkingDir/A199D1B146BC8FCDD62CC285F54484A9/'.
-[2019.06.16-19.06.55:796][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.06.16-19.06.55:796][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.06.16-19.06.55:796][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.06.16-19.06.56:263][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.06.16-19.06.56:318][  0]LogDerivedDataCache: Loaded boot cache 0.06s 86MB C:/Users/hiszp/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.06.16-19.06.56:318][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hiszp/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.06.16-19.06.56:318][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.06.16-19.06.56:318][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.06.16-19.06.56:318][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.06.16-19.06.56:318][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.06.16-19.06.56:329][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.06.16-19.06.56:329][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.06.16-19.06.56:329][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.06.16-19.06.56:340][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hiszp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.06.16-19.06.56:340][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.06.16-19.06.56:340][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.06.16-19.06.56:359][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.06.16-19.06.56:360][  0]LogSlate: Using FreeType 2.6.0
-[2019.06.16-19.06.56:361][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.06.16-19.06.56:434][  0]LogAssetRegistry: FAssetRegistry took 0.0317 seconds to start up
-[2019.06.16-19.06.56:711][  0]LogInit: Selected Device Profile: [Windows]
-[2019.06.16-19.06.56:832][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.06.16-19.06.56:832][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.06.16-19.06.56:832][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.06.16-19.06.56:832][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.06.16-19.06.56:832][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.06.16-19.06.56:840][  0]LogNetVersion: BatteryCollector 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2114802313)
-[2019.06.16-19.06.57:170][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.040974 seconds
-[2019.06.16-19.06.57:176][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.06.16-19.06.57:176][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.06.16-19.06.57:176][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.06.16-19.06.57:878][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.06.16-19.06.57:892][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.06.16-19.06.58:287][  0]SourceControl: Source control is disabled
-[2019.06.16-19.06.58:287][  0]SourceControl: Source control is disabled
-[2019.06.16-19.06.58:289][  0]SourceControl: Source control is disabled
-[2019.06.16-19.06.58:289][  0]SourceControl: Source control is disabled
-[2019.06.16-19.06.58:348][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.06.16-19.06.58:428][  0]LogOcInput: OculusInput pre-init called
-[2019.06.16-19.06.59:035][  0]LogEngine: Initializing Engine...
-[2019.06.16-19.06.59:035][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.06.16-19.06.59:036][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.06.16-19.06.59:219][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.06.16-19.06.59:232][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.06.16-19.06.59:247][  0]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.16-19.06.59:265][  0]LogInit: FAudioDevice initialized.
-[2019.06.16-19.06.59:265][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.06.16-19.06.59:338][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/hiszp/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.06.16-19.06.59:356][  0]LogInit: Texture streaming: Enabled
-[2019.06.16-19.06.59:371][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.06.16-19.06.59:388][  0]LogInit: Transaction tracking system initialized
-[2019.06.16-19.06.59:409][  0]BlueprintLog: New page: Editor Load
-[2019.06.16-19.06.59:474][  0]LocalizationService: Localization service is disabled
-[2019.06.16-19.06.59:722][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/' took 0.02s
-[2019.06.16-19.06.59:722][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.06.16-19.06.59:722][  0]LogCook: Display: Mobile HDR setting 1
-[2019.06.16-19.06.59:860][  0]SourceControl: Source control is disabled
-[2019.06.16-19.06.59:860][  0]Cmd: MAP LOAD FILE="../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.06.16-19.06.59:860][  0]LightingResults: New page: Lighting Build
-[2019.06.16-19.06.59:862][  0]MapCheck: New page: Map Check
-[2019.06.16-19.06.59:862][  0]LightingResults: New page: Lighting Build
-[2019.06.16-19.06.59:889][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
-[2019.06.16-19.07.00:620][  0]LogAIModule: Creating AISystem for world CollectionLevel
-[2019.06.16-19.07.00:628][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.06.16-19.07.00:657][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
-[2019.06.16-19.07.00:657][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.06.16-19.07.00:657][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.128ms to complete.
-[2019.06.16-19.07.00:657][  0]LogFileHelpers: Loading map 'CollectionLevel' took 0.798
-[2019.06.16-19.07.00:780][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-19.07.00:787][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-19.07.00:793][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-19.07.00:800][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-19.07.00:812][  0]LogCollectionManager: Loaded 0 collections in 0.001446 seconds
-[2019.06.16-19.07.00:843][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Collections/' took 0.01s
-[2019.06.16-19.07.00:843][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Developers/hiszp/Collections/' took 0.00s
-[2019.06.16-19.07.00:843][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Collections/' took 0.00s
-[2019.06.16-19.07.00:843][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.06.16-19.07.00:854][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2735 classes and 661 folders.
-[2019.06.16-19.07.00:868][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.06.16-19.07.00:878][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:885][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:900][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:905][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:911][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:915][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:920][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:925][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:930][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:935][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:941][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:945][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:951][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:956][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:961][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:966][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:989][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:994][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.00:999][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.01:003][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.01:008][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.01:013][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.01:019][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.01:024][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.01:042][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.01:059][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.16-19.07.01:226][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.06.16-19.07.01:239][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.06.16-19.07.01:290][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.06.16-19.07.01:291][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.06.16-19.07.01:300][  0]LogSlate: Took 0.004221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.06.16-19.07.01:405][  0]LogRenderer: Reallocating scene render targets to support 1128x600 Format 10 NumSamples 1 (Frame:1).
-[2019.06.16-19.07.01:450][  0]LogSlate: Took 0.004977 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.06.16-19.07.01:511][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.06.16-19.07.01:511][  0]LogLoad: (Engine Initialization) Total time: 8.87 seconds
-[2019.06.16-19.07.01:511][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.06.16-19.07.01:520][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.06.16-19.07.01:542][  0]LogAssetRegistry: Asset discovery search completed in 5.1311 seconds
-[2019.06.16-19.07.01:544][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.06.16-19.07.01:544][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
-[2019.06.16-19.07.01:547][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.06.16-19.11.08:713][466]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.16-19.11.09:544][548]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.06.16-19.11.09:567][548]LogAssetEditorManager: Opening Asset editor for Class /Script/BatteryCollector.BatteryCollectorCharacter
-[2019.06.16-19.19.14:840][491]LogHotReload: New module detected: UE4Editor-BatteryCollector-0004.dll
-[2019.06.16-19.19.15:855][495]LogHotReload: Starting Hot-Reload from IDE
-[2019.06.16-19.19.15:904][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
-[2019.06.16-19.19.15:917][495]LogClass: Could not find existing class Pickup in package /Script/BatteryCollector for HotReload, assuming new class
-[2019.06.16-19.19.15:917][495]LogClass: Function IsActive is new.
-[2019.06.16-19.19.15:917][495]LogClass: Function SetActive is new.
-[2019.06.16-19.19.15:924][495]LogHotReload: Re-instancing Pickup after hot-reload.
-[2019.06.16-19.19.15:988][495]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0004 seconds. Added 3 classes and 2 folders.
-[2019.06.16-19.19.15:990][495]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2019.06.16-19.19.16:153][495]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
-[2019.06.16-19.19.16:164][495]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2736 classes and 663 folders.
-[2019.06.16-19.19.16:168][495]Display: HotReload took  0.3s.
-[2019.06.16-19.19.26:598][840]LogSlate: Took 0.008235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.06.16-19.19.35:132][348]LogSlate: Window 'Add Blueprint Class' being destroyed
-[2019.06.16-19.20.04:122][ 74]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pickup_BP.Pickup_BP
-[2019.06.16-19.20.04:533][ 74]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
-[2019.06.16-19.20.05:432][ 74]LogSlate: Window 'Add Blueprint Class' being destroyed
-[2019.06.16-19.20.05:553][ 74]LogRenderer: Reallocating scene render targets to support 1128x744 Format 10 NumSamples 1 (Frame:1).
-[2019.06.16-19.20.13:479][221]LogSlate: Window 'Pickup_BP' being destroyed
-[2019.06.16-19.20.17:146][434]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pickup_BP.Pickup_BP
-[2019.06.16-19.20.33:337][378]LogBlueprintActionDatabase: Requesting refresh due to module change: HierarchicalLODUtilities (loaded)
-[2019.06.16-19.20.38:634][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickup_BP" FILE="../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Blueprints/Pickup_BP.uasset" SILENT=true
-[2019.06.16-19.20.38:653][537]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Pickup_BPD838DFD14CD9EE0B0C45BC974E92080F.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Blueprints/Pickup_BP.uasset'
-[2019.06.16-19.20.39:855][609]BlueprintLog: New page: Compile Pickup_BP
-[2019.06.16-19.20.40:041][609]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
-[2019.06.16-19.20.45:316][925]LogSlate: Window 'Pickup_BP' being destroyed
-[2019.06.16-19.21.31:041][278]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.16-19.21.32:636][355]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
-[2019.06.16-19.21.32:809][355]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevel_Auto1B779BE3A475AB52E62B91180F2D10895.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Autosaves/Game/Maps/CollectionLevel_Auto1.umap'
-[2019.06.16-19.21.32:817][355]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CollectionLevel' took 0.215
-[2019.06.16-19.21.32:817][355]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.215
-[2019.06.16-19.21.38:970][437]LogTemp: Repeating last play command: Selected Viewport
-[2019.06.16-19.21.38:986][437]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.21.38:990][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.06.16-19.21.38:992][437]PIE: New page: PIE session: CollectionLevel (16 Jun 2019 23:21:38)
-[2019.06.16-19.21.39:007][437]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
-[2019.06.16-19.21.39:013][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005179s)
-[2019.06.16-19.21.39:013][437]LogAIModule: Creating AISystem for world CollectionLevel
-[2019.06.16-19.21.39:013][437]LogPlayLevel: PIE: World Init took: (0.000558s)
-[2019.06.16-19.21.39:013][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.006211s)
-[2019.06.16-19.21.39:051][437]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
-[2019.06.16-19.21.39:065][437]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.16-19.21.39:080][437]LogInit: FAudioDevice initialized.
-[2019.06.16-19.21.39:123][437]LogLoad: Game class is 'BatteryCollectorGameMode'
-[2019.06.16-19.21.39:129][437]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2019.06.16-21.21.39
-[2019.06.16-19.21.39:130][437]LogWorld: Bringing up level for play took: 0.001279
-[2019.06.16-19.21.39:148][437]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
-[2019.06.16-19.21.39:151][437]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
-[2019.06.16-19.21.39:151][437]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
-[2019.06.16-19.21.39:159][437]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel -0.443
-[2019.06.16-19.21.39:159][437]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.21.46:494][859]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.21.46:495][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-19.21.46:527][859]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.06.16-19.21.46:527][859]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.21.46:594][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-19.21.46:631][859]LogUObjectHash: Compacting FUObjectHashTables data took   5.90ms
-[2019.06.16-19.21.46:654][860]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2019.06.16-19.21.52:362][ 87]LogEditorViewport: Clicking on Actor (LMB): Pickup_BP_C (Pickup_BP)
-[2019.06.16-19.21.59:029][141]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.16-19.22.00:700][216]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pickup_BP.Pickup_BP
-[2019.06.16-19.22.49:218][ 44]LogSlate: Took 0.007696 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.06.16-19.23.21:237][963]LogSlate: Window 'Pickup_BP' being destroyed
-[2019.06.16-19.23.24:311][134]LogUObjectHash: Compacting FUObjectHashTables data took   7.26ms
-[2019.06.16-19.23.24:503][134]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevel1BBD1CD94B80CE53B98197AD3BCD4FEB.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel.umap'
-[2019.06.16-19.23.24:804][134]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevel_BuiltData6336FE1C457C71F8FC621FA7782B4DE4.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
-[2019.06.16-19.26.42:978][782]LogUObjectHash: Compacting FUObjectHashTables data took   5.98ms
-[2019.06.16-19.26.43:157][782]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevel10330B1246F066D95D9AB3A9E09CB4F1.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel.umap'
-[2019.06.16-19.26.43:348][782]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevel_BuiltData060952964C5FF9C0C6650D88C0A309A7.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
-[2019.06.16-19.26.47:131][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
-[2019.06.16-19.26.47:153][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickup_BP" FILE="../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Blueprints/Pickup_BP.uasset" SILENT=true
-[2019.06.16-19.26.47:179][  5]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Pickup_BP96AB1DBA48FCA52AE4FF19B19624E6C2.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Blueprints/Pickup_BP.uasset'
-[2019.06.16-19.27.57:065][163]Candidate modules for hot reload:
-[2019.06.16-19.27.57:065][163]  BatteryCollector
-[2019.06.16-19.27.57:065][163]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,1692 Win64 Development -TargetType=Editor -Project="C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/BatteryCollector.uproject" "C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
-[2019.06.16-19.28.07:151][163]CompilerResultsLog: New page: Compilation - 16 Jun 2019 23:28:07
-[2019.06.16-19.28.07:151][163]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hiszp\Documents\unrealTutorials).
-[2019.06.16-19.28.07:151][163]CompilerResultsLog: Creating makefile for BatteryCollectorEditor (ini files are newer than makefile)
-[2019.06.16-19.28.07:151][163]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
-[2019.06.16-19.28.07:151][163]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\BatteryCollector.uproject" "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.06.16-19.28.07:151][163]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 6.0110084 seconds
-[2019.06.16-19.28.07:151][163]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.06.16-19.28.07:151][163]CompilerResultsLog: Building 6 actions with 12 processes...
-[2019.06.16-19.28.07:151][163]CompilerResultsLog:   [1/6] BatteryCollector.init.gen.cpp
-[2019.06.16-19.28.07:151][163]CompilerResultsLog:   [2/6] BatteryPickup.cpp
-[2019.06.16-19.28.07:151][163]CompilerResultsLog:   [3/6] BatteryPickup.gen.cpp
-[2019.06.16-19.28.07:151][163]CompilerResultsLog:   [4/6] UE4Editor-BatteryCollector-1692.lib
-[2019.06.16-19.28.07:151][163]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-1692.lib and object C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-1692.exp
-[2019.06.16-19.28.07:151][163]CompilerResultsLog:   [5/6] UE4Editor-BatteryCollector-1692.dll
-[2019.06.16-19.28.07:151][163]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-1692.suppressed.lib and object C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-1692.suppressed.exp
-[2019.06.16-19.28.07:151][163]CompilerResultsLog:   [6/6] BatteryCollectorEditor.target
-[2019.06.16-19.28.07:151][163]CompilerResultsLog: Total time in Parallel executor: 1.89 seconds
-[2019.06.16-19.28.07:151][163]CompilerResultsLog: Total execution time: 10.00 seconds
-[2019.06.16-19.28.07:151][163]LogMainFrame: MainFrame: Module compiling took 10.088 seconds
-[2019.06.16-19.28.07:184][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
-[2019.06.16-19.28.07:184][163]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (unloaded)
-[2019.06.16-19.28.07:208][163]LogClass: Could not find existing class BatteryPickup in package /Script/BatteryCollector for HotReload, assuming new class
-[2019.06.16-19.28.07:216][163]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (loaded)
-[2019.06.16-19.28.07:217][163]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0004 seconds. Added 4 classes and 2 folders.
-[2019.06.16-19.28.07:221][163]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
-[2019.06.16-19.28.07:290][163]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
-[2019.06.16-19.28.07:290][163]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.06.16-19.28.07:306][163]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2737 classes and 663 folders.
-[2019.06.16-19.28.07:307][163]Display: HotReload took 10.3s.
-[2019.06.16-19.28.07:309][163]Warning: HotReload operation took 10.3s.
-[2019.06.16-19.28.07:924][163]LogSlate: Window 'Add C++ Class' being destroyed
-[2019.06.16-19.28.08:279][164]LogHotReload: New module detected: UE4Editor-BatteryCollector-1692.dll
-[2019.06.16-19.28.08:296][165]LogHotReload: Starting Hot-Reload from IDE
-[2019.06.16-19.28.08:414][165]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
-[2019.06.16-19.28.08:414][165]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (unloaded)
-[2019.06.16-19.28.08:418][165]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (loaded)
-[2019.06.16-19.28.08:419][165]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0003 seconds. Added 4 classes and 2 folders.
-[2019.06.16-19.28.08:426][165]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2019.06.16-19.28.08:491][165]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
-[2019.06.16-19.28.08:491][165]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.06.16-19.28.08:509][165]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2737 classes and 663 folders.
-[2019.06.16-19.28.08:511][165]Display: HotReload took  0.2s.
-[2019.06.16-19.29.01:687][379]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (53.408 sec). This should never happen. Something is wrong with the timer delegate!
-[2019.06.16-19.33.06:421][392]LogHotReload: New module detected: UE4Editor-BatteryCollector-0006.dll
-[2019.06.16-19.33.07:639][460]LogHotReload: Starting Hot-Reload from IDE
-[2019.06.16-19.33.07:730][460]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
-[2019.06.16-19.33.07:730][460]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (unloaded)
-[2019.06.16-19.33.07:766][460]LogHotReload: Re-instancing BatteryPickup after hot-reload.
-[2019.06.16-19.33.07:893][460]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (loaded)
-[2019.06.16-19.33.07:893][460]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0004 seconds. Added 4 classes and 2 folders.
-[2019.06.16-19.33.07:898][460]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
-[2019.06.16-19.33.07:961][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
-[2019.06.16-19.33.07:961][460]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.06.16-19.33.07:982][460]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2737 classes and 663 folders.
-[2019.06.16-19.33.07:984][460]Display: HotReload took  0.3s.
-[2019.06.16-19.33.46:205][730]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Battery_BP.Battery_BP
-[2019.06.16-19.33.46:540][730]LogSlate: Window 'Add Blueprint Class' being destroyed
-[2019.06.16-19.34.06:586][920]LogTexture: Display: Building textures: T_Battery_M (AutoDXT, 512X512)
-[2019.06.16-19.34.06:587][920]LogMaterial: Display: Missing cached shader map for material M_Battery, compiling. 
-[2019.06.16-19.34.06:642][920]LogStaticMesh: Building static mesh SM_Battery_Medium...
-[2019.06.16-19.34.06:685][920]LogBlueprintActionDatabase: Requesting refresh due to module change: MeshBuilder (loaded)
-[2019.06.16-19.34.06:689][920]LogStaticMesh: Built static mesh [0.05s] /Game/ExampleContent/Blueprint_Communication/Meshes/SM_Battery_Medium.SM_Battery_Medium
-[2019.06.16-19.34.22:791][822]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.06.16-19.34.22:807][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Battery_BP" FILE="../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Blueprints/Battery_BP.uasset" SILENT=true
-[2019.06.16-19.34.22:828][822]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Battery_BP7C4331FC4463742C3A342B8695342C74.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Blueprints/Battery_BP.uasset'
-[2019.06.16-19.34.25:030][952]LogSlate: Window 'Battery_BP' being destroyed
-[2019.06.16-19.34.37:774][701]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.16-19.34.37:841][705]LogTemp: Repeating last play command: Selected Viewport
-[2019.06.16-19.34.37:861][705]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.34.37:861][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.06.16-19.34.37:861][705]PIE: New page: PIE session: CollectionLevel (16 Jun 2019 23:34:37)
-[2019.06.16-19.34.37:861][705]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
-[2019.06.16-19.34.37:864][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002797s)
-[2019.06.16-19.34.37:872][705]LogAIModule: Creating AISystem for world CollectionLevel
-[2019.06.16-19.34.37:872][705]LogPlayLevel: PIE: World Init took: (0.008103s)
-[2019.06.16-19.34.37:872][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.011004s)
-[2019.06.16-19.34.37:987][705]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
-[2019.06.16-19.34.37:997][705]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.16-19.34.38:012][705]LogInit: FAudioDevice initialized.
-[2019.06.16-19.34.38:042][705]LogLoad: Game class is 'BatteryCollectorGameMode'
-[2019.06.16-19.34.38:044][705]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2019.06.16-21.34.38
-[2019.06.16-19.34.38:045][705]LogWorld: Bringing up level for play took: 0.001302
-[2019.06.16-19.34.38:059][705]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.457
-[2019.06.16-19.34.38:059][705]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.34.45:558][925]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.34.45:558][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-19.34.45:592][925]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.06.16-19.34.45:592][925]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.34.45:635][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-19.34.45:664][925]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
-[2019.06.16-19.34.45:687][926]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.06.16-19.34.47:003][  5]LogEditorViewport: Clicking on Actor (LMB): Battery_BP_C (Battery_BP)
-[2019.06.16-19.34.49:169][132]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.06.16-19.34.55:072][480]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.06.16-19.34.55:101][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
-[2019.06.16-19.34.55:236][480]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevelF0B627694A9C4EBB33A0C5B655D589D0.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel.umap'
-[2019.06.16-19.34.55:417][480]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevel_BuiltDataC500B97B41F939998C8163AB14F46AB6.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
-[2019.06.16-19.34.55:826][504]LogTemp: Repeating last play command: Selected Viewport
-[2019.06.16-19.34.55:837][504]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.34.55:837][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.06.16-19.34.55:837][504]PIE: New page: PIE session: CollectionLevel (16 Jun 2019 23:34:55)
-[2019.06.16-19.34.55:837][504]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
-[2019.06.16-19.34.55:840][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002632s)
-[2019.06.16-19.34.55:840][504]LogAIModule: Creating AISystem for world CollectionLevel
-[2019.06.16-19.34.55:840][504]LogPlayLevel: PIE: World Init took: (0.000456s)
-[2019.06.16-19.34.55:840][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.003174s)
-[2019.06.16-19.34.55:870][504]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
-[2019.06.16-19.34.55:879][504]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.16-19.34.55:891][504]LogInit: FAudioDevice initialized.
-[2019.06.16-19.34.55:922][504]LogLoad: Game class is 'BatteryCollectorGameMode'
-[2019.06.16-19.34.55:923][504]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2019.06.16-21.34.55
-[2019.06.16-19.34.55:924][504]LogWorld: Bringing up level for play took: 0.001032
-[2019.06.16-19.34.55:936][504]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.335
-[2019.06.16-19.34.55:937][504]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.34.57:936][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.34.57:936][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-19.34.57:965][623]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.06.16-19.34.57:965][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.34.57:995][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-19.34.57:999][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
-[2019.06.16-19.34.58:043][626]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.06.16-19.35.26:652][326]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/ExampleContent/Blueprint_Communication/Meshes/SM_Battery_Medium.SM_Battery_Medium
-[2019.06.16-19.35.26:662][326]LogBlueprintActionDatabase: Requesting refresh due to module change: StaticMeshEditor (loaded)
-[2019.06.16-19.35.27:323][326]LogRenderer: Reallocating scene render targets to support 1372x960 Format 10 NumSamples 1 (Frame:1).
-[2019.06.16-19.35.43:214][ 47]LogAssetEditorManager: Opening Asset editor for StaticMesh /Engine/EngineMeshes/Cube.Cube
-[2019.06.16-19.35.43:225][ 47]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
-[2019.06.16-19.35.43:694][ 47]LogSlate: Window 'Tutorials' being destroyed
-[2019.06.16-19.35.43:751][ 48]LogRenderer: Reallocating scene render targets to support 1372x1044 Format 10 NumSamples 1 (Frame:1).
-[2019.06.16-19.36.31:653][896]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.16-19.38.08:536][707]LogSlate: Window 'Tutorials' being destroyed
-[2019.06.16-19.38.08:541][707]LogSlate: Window 'Tutorials' being destroyed
-[2019.06.16-19.39.07:952][856]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.06.16-19.39.08:006][856]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/SM_Battery_MediumAC4FEFFC4880DB0B0F6BA6B973400C11.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/ExampleContent/Blueprint_Communication/Meshes/SM_Battery_Medium.uasset'
-[2019.06.16-19.39.13:378][176]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.06.16-19.40.13:739][561]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.06.16-19.40.13:761][561]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/SM_Battery_MediumBCB6BFC1479FB181F50A7D98EB80CF71.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/ExampleContent/Blueprint_Communication/Meshes/SM_Battery_Medium.uasset'
-[2019.06.16-19.40.18:717][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.16-19.40.18:784][860]LogSlate: Window 'SM_Battery_Medium' being destroyed
-[2019.06.16-19.40.20:621][963]LogTemp: Repeating last play command: Selected Viewport
-[2019.06.16-19.40.20:631][963]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.40.20:631][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.06.16-19.40.20:631][963]PIE: New page: PIE session: CollectionLevel (16 Jun 2019 23:40:20)
-[2019.06.16-19.40.20:631][963]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
-[2019.06.16-19.40.20:634][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003014s)
-[2019.06.16-19.40.20:634][963]LogAIModule: Creating AISystem for world CollectionLevel
-[2019.06.16-19.40.20:634][963]LogPlayLevel: PIE: World Init took: (0.001082s)
-[2019.06.16-19.40.20:634][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.004236s)
-[2019.06.16-19.40.20:703][963]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
-[2019.06.16-19.40.20:713][963]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.16-19.40.20:728][963]LogInit: FAudioDevice initialized.
-[2019.06.16-19.40.20:758][963]LogLoad: Game class is 'BatteryCollectorGameMode'
-[2019.06.16-19.40.20:760][963]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2019.06.16-21.40.20
-[2019.06.16-19.40.20:760][963]LogWorld: Bringing up level for play took: 0.001431
-[2019.06.16-19.40.20:774][963]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel -0.827
-[2019.06.16-19.40.20:775][963]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.40.33:880][748]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.40.33:880][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-19.40.33:912][748]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.06.16-19.40.33:912][748]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-19.40.33:950][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-19.40.33:969][748]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
-[2019.06.16-19.40.33:993][749]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2019.06.16-19.48.22:238][451]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.06.16-19.48.49:622][ 84]Cmd: DELETE
-[2019.06.16-19.48.49:622][ 84]Cmd: ACTOR DELETE
-[2019.06.16-19.48.49:636][ 84]LogEditorActor: Deleted Actor: Pickup_BP_C
-[2019.06.16-19.48.49:665][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
-[2019.06.16-19.48.49:665][ 84]LogEditorActor: Deleted 1 Actors (0.034 secs)
-[2019.06.16-19.48.50:959][162]LogEditorViewport: Clicking on Actor (LMB): Battery_BP_C (Battery_BP)
-[2019.06.16-19.48.51:988][219]Cmd: DELETE
-[2019.06.16-19.48.51:988][219]Cmd: ACTOR DELETE
-[2019.06.16-19.48.51:989][219]LogEditorActor: Deleted Actor: Battery_BP_C
-[2019.06.16-19.48.52:016][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
-[2019.06.16-19.48.52:017][219]LogEditorActor: Deleted 1 Actors (0.030 secs)
-[2019.06.16-19.48.53:497][307]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.06.16-19.48.53:540][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
-[2019.06.16-19.48.53:695][307]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevel8A301BD7485197696056FC935C608112.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel.umap'
-[2019.06.16-19.48.53:904][307]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevel_BuiltDataF65B7F8744030BC661CA3EB364D8C2BD.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
-[2019.06.16-19.49.23:171][ 51]Candidate modules for hot reload:
-[2019.06.16-19.49.23:171][ 51]  BatteryCollector
-[2019.06.16-19.49.23:171][ 51]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,9149 Win64 Development -TargetType=Editor -Project="C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/BatteryCollector.uproject" "C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog: New page: Compilation - 16 Jun 2019 23:49:33
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hiszp\Documents\unrealTutorials).
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog: Creating makefile for BatteryCollectorEditor (ini files are newer than makefile)
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\BatteryCollector.uproject" "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 6.3133268 seconds
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog: Building 6 actions with 12 processes...
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog:   [1/6] SpawnVolume.cpp
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog:   [2/6] BatteryCollector.init.gen.cpp
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog:   [3/6] SpawnVolume.gen.cpp
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog:   [4/6] UE4Editor-BatteryCollector-9149.lib
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-9149.lib and object C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-9149.exp
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog:   [5/6] UE4Editor-BatteryCollector-9149.dll
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-9149.suppressed.lib and object C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-9149.suppressed.exp
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog:   [6/6] BatteryCollectorEditor.target
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog: Total time in Parallel executor: 1.94 seconds
-[2019.06.16-19.49.33:660][ 51]CompilerResultsLog: Total execution time: 10.40 seconds
-[2019.06.16-19.49.33:660][ 51]LogMainFrame: MainFrame: Module compiling took 10.495 seconds
-[2019.06.16-19.49.33:692][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
-[2019.06.16-19.49.33:693][ 51]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (unloaded)
-[2019.06.16-19.49.33:719][ 51]LogClass: Could not find existing class SpawnVolume in package /Script/BatteryCollector for HotReload, assuming new class
-[2019.06.16-19.49.33:724][ 51]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (loaded)
-[2019.06.16-19.49.33:725][ 51]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0007 seconds. Added 5 classes and 2 folders.
-[2019.06.16-19.49.33:729][ 51]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
-[2019.06.16-19.49.33:789][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
-[2019.06.16-19.49.33:789][ 51]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.06.16-19.49.33:806][ 51]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2738 classes and 663 folders.
-[2019.06.16-19.49.33:806][ 51]Display: HotReload took 10.7s.
-[2019.06.16-19.49.33:807][ 51]Warning: HotReload operation took 10.7s.
-[2019.06.16-19.49.34:010][ 51]LogSlate: Window 'Add C++ Class' being destroyed
-[2019.06.16-19.49.34:338][ 52]LogHotReload: New module detected: UE4Editor-BatteryCollector-9149.dll
-[2019.06.16-19.49.34:352][ 53]LogHotReload: Starting Hot-Reload from IDE
-[2019.06.16-19.49.34:441][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   6.71ms
-[2019.06.16-19.49.34:441][ 53]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (unloaded)
-[2019.06.16-19.49.34:447][ 53]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (loaded)
-[2019.06.16-19.49.34:448][ 53]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0005 seconds. Added 5 classes and 2 folders.
-[2019.06.16-19.49.34:457][ 53]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2019.06.16-19.49.34:510][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
-[2019.06.16-19.49.34:510][ 53]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.06.16-19.49.34:530][ 53]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2738 classes and 663 folders.
-[2019.06.16-19.49.34:532][ 53]Display: HotReload took  0.2s.
-[2019.06.16-20.03.37:065][571]LogHotReload: New module detected: UE4Editor-BatteryCollector-0008.dll
-[2019.06.16-20.03.38:088][575]LogHotReload: Starting Hot-Reload from IDE
-[2019.06.16-20.03.38:163][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
-[2019.06.16-20.03.38:163][575]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (unloaded)
-[2019.06.16-20.03.38:197][575]LogClass: Could not find existing class SpawnVolume in package /Script/BatteryCollector for HotReload, assuming new class
-[2019.06.16-20.03.38:198][575]LogClass: Function GetRandomPointInVolume is new.
-[2019.06.16-20.03.38:211][575]LogHotReload: Re-instancing SpawnVolume after hot-reload.
-[2019.06.16-20.03.38:326][575]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (loaded)
-[2019.06.16-20.03.38:327][575]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0005 seconds. Added 5 classes and 2 folders.
-[2019.06.16-20.03.38:334][575]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
-[2019.06.16-20.03.38:402][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
-[2019.06.16-20.03.38:402][575]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.06.16-20.03.38:421][575]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2738 classes and 663 folders.
-[2019.06.16-20.03.38:424][575]Display: HotReload took  0.3s.
-[2019.06.16-20.23.56:928][214]LogHotReload: New module detected: UE4Editor-BatteryCollector-0009.dll
-[2019.06.16-20.23.58:276][219]LogHotReload: Starting Hot-Reload from IDE
-[2019.06.16-20.23.58:372][219]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
-[2019.06.16-20.23.58:372][219]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (unloaded)
-[2019.06.16-20.23.58:408][219]LogClass: Could not find existing class SpawnVolume in package /Script/BatteryCollector for HotReload, assuming new class
-[2019.06.16-20.23.58:408][219]LogClass: Function GetRandomPointInVolume is new.
-[2019.06.16-20.23.58:423][219]LogHotReload: Re-instancing SpawnVolume after hot-reload.
-[2019.06.16-20.23.58:567][219]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (loaded)
-[2019.06.16-20.23.58:568][219]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0004 seconds. Added 5 classes and 2 folders.
-[2019.06.16-20.23.58:572][219]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
-[2019.06.16-20.23.58:657][219]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
-[2019.06.16-20.23.58:657][219]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.06.16-20.23.58:673][219]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2738 classes and 663 folders.
-[2019.06.16-20.23.58:675][219]Display: HotReload took  0.4s.
-[2019.06.16-20.43.06:670][680]Candidate modules for hot reload:
-[2019.06.16-20.43.06:670][680]  BatteryCollector
-[2019.06.16-20.43.06:670][680]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,8936 Win64 Development -TargetType=Editor -Project="C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/BatteryCollector.uproject" "C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
-[2019.06.16-20.43.06:671][680]Warning: Starting HotReload took  0.0s.
-[2019.06.16-20.43.15:475][732]CompilerResultsLog: New page: Compilation - 17 Jun 2019 00:43:15
-[2019.06.16-20.43.15:476][732]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hiszp\Documents\unrealTutorials).
-[2019.06.16-20.43.15:476][732]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
-[2019.06.16-20.43.15:476][732]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\BatteryCollector.uproject" "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.06.16-20.43.15:476][732]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 5.6505641 seconds
-[2019.06.16-20.43.15:476][732]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.06.16-20.43.15:476][732]CompilerResultsLog: Building 6 actions with 12 processes...
-[2019.06.16-20.43.15:476][732]CompilerResultsLog:   [1/6] BatteryCollector.init.gen.cpp
-[2019.06.16-20.43.15:476][732]CompilerResultsLog:   [2/6] SpawnVolume.gen.cpp
-[2019.06.16-20.43.15:476][732]CompilerResultsLog:   [3/6] SpawnVolume.cpp
-[2019.06.16-20.43.15:476][732]CompilerResultsLog:   [4/6] UE4Editor-BatteryCollector-8936.lib
-[2019.06.16-20.43.15:476][732]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-8936.lib and object C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-8936.exp
-[2019.06.16-20.43.15:476][732]CompilerResultsLog:   [5/6] UE4Editor-BatteryCollector-8936.dll
-[2019.06.16-20.43.15:476][732]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-8936.suppressed.lib and object C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-8936.suppressed.exp
-[2019.06.16-20.43.15:476][732]CompilerResultsLog:   [6/6] BatteryCollectorEditor.target
-[2019.06.16-20.43.15:476][732]CompilerResultsLog: Total time in Parallel executor: 2.05 seconds
-[2019.06.16-20.43.15:476][732]CompilerResultsLog: Total execution time: 8.66 seconds
-[2019.06.16-20.43.15:476][732]LogMainFrame: MainFrame: Module compiling took 8.809 seconds
-[2019.06.16-20.43.15:560][732]LogUObjectHash: Compacting FUObjectHashTables data took   5.04ms
-[2019.06.16-20.43.15:560][732]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (unloaded)
-[2019.06.16-20.43.15:594][732]LogClass: Could not find existing class SpawnVolume in package /Script/BatteryCollector for HotReload, assuming new class
-[2019.06.16-20.43.15:594][732]LogClass: Function GetRandomPointInVolume is new.
-[2019.06.16-20.43.15:605][732]LogHotReload: Re-instancing SpawnVolume after hot-reload.
-[2019.06.16-20.43.15:739][732]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (loaded)
-[2019.06.16-20.43.15:740][732]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0010 seconds. Added 5 classes and 2 folders.
-[2019.06.16-20.43.15:746][732]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
-[2019.06.16-20.43.15:827][732]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
-[2019.06.16-20.43.15:827][732]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.06.16-20.43.15:844][732]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2738 classes and 663 folders.
-[2019.06.16-20.43.15:844][732]Display: HotReload took  9.2s.
-[2019.06.16-20.43.24:236][757]LogEditor: Attempting to add actor of class 'SpawnVolume' to level at 420.00,100.00,10.00
-[2019.06.16-20.43.25:167][812]LogEditor: Attempting to add actor of class 'SpawnVolume' to level at 480.00,-190.00,10.00
-[2019.06.16-20.43.58:258][225]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
-[2019.06.16-20.43.59:382][291]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.06.16-20.44.01:111][392]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.16-20.44.12:371][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.16-20.44.13:194][960]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.06.16-20.44.28:366][863]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
-[2019.06.16-20.44.28:524][863]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevel8D9B4B3C453C4E3AA6E626A9C7FB29D2.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel.umap'
-[2019.06.16-20.44.28:714][863]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevel_BuiltData9B639335494A19DAE4FCDB9D96940E24.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
-[2019.06.16-20.44.34:985][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
-[2019.06.16-20.44.35:154][ 41]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevelD8F6CF6344532888573DCA98561192C9.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel.umap'
-[2019.06.16-20.44.35:361][ 41]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevel_BuiltData2E597E37439C580689AAB184D83B21F6.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
-[2019.06.16-20.44.38:133][205]Cmd: EDIT COPY
-[2019.06.16-20.44.38:750][242]Cmd: EDIT PASTE
-[2019.06.16-20.44.47:777][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.16-20.44.49:238][637]Cmd: TRANSACTION UNDO
-[2019.06.16-20.44.49:238][637]LogEditorTransaction: Undo Set Vector Property
-[2019.06.16-20.44.53:060][864]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
-[2019.06.16-20.44.53:190][864]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevel4D55200044F0A3A6BC5D77A9209F3BF4.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel.umap'
-[2019.06.16-20.44.53:365][864]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevel_BuiltData0966A8EA492CE682773DCA8A1F4793B3.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
-[2019.06.16-20.44.54:058][905]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.06.16-20.44.57:247][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
-[2019.06.16-20.44.57:390][ 92]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevelB83E1546411BF604AC7F19981F11F70D.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel.umap'
-[2019.06.16-20.44.57:560][ 92]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevel_BuiltDataEAD4C2D74C9212DB8EB778BB4C8AB417.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
-[2019.06.16-20.45.16:293][ 20]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.16-20.45.17:330][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
-[2019.06.16-20.45.17:486][ 80]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevelD48920FD4B769D01B1371586857F3365.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel.umap'
-[2019.06.16-20.45.17:695][ 80]LogSavePackage: Moving '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/CollectionLevel_BuiltData08D912EB45CCCCA7C588B58F10B7248A.tmp' to '../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel_BuiltData.uasset'
-[2019.06.16-20.45.30:385][838]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.45.30:385][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.06.16-20.45.30:385][838]PIE: New page: SIE session: CollectionLevel (17 Jun 2019 00:45:30)
-[2019.06.16-20.45.30:385][838]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
-[2019.06.16-20.45.30:393][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007695s)
-[2019.06.16-20.45.30:395][838]LogAIModule: Creating AISystem for world CollectionLevel
-[2019.06.16-20.45.30:396][838]LogPlayLevel: PIE: World Init took: (0.002500s)
-[2019.06.16-20.45.30:396][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.010391s)
-[2019.06.16-20.45.30:431][838]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
-[2019.06.16-20.45.30:443][838]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.16-20.45.30:460][838]LogInit: FAudioDevice initialized.
-[2019.06.16-20.45.30:492][838]LogLoad: Game class is 'BatteryCollectorGameMode'
-[2019.06.16-20.45.30:494][838]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2019.06.16-22.45.30
-[2019.06.16-20.45.30:495][838]LogWorld: Bringing up level for play took: 0.001290
-[2019.06.16-20.45.30:510][838]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.908
-[2019.06.16-20.45.30:522][838]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.45.43:593][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.16-20.45.43:877][556]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.45.43:877][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-20.45.43:905][556]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.06.16-20.45.43:905][556]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.45.43:936][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-20.45.43:940][556]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
-[2019.06.16-20.45.43:985][559]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2019.06.16-20.45.45:200][631]LogTemp: Repeating last play command: Simulate
-[2019.06.16-20.45.45:212][631]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.45.45:212][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.06.16-20.45.45:212][631]PIE: New page: SIE session: CollectionLevel (17 Jun 2019 00:45:45)
-[2019.06.16-20.45.45:212][631]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
-[2019.06.16-20.45.45:215][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003021s)
-[2019.06.16-20.45.45:216][631]LogAIModule: Creating AISystem for world CollectionLevel
-[2019.06.16-20.45.45:216][631]LogPlayLevel: PIE: World Init took: (0.000618s)
-[2019.06.16-20.45.45:216][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.003757s)
-[2019.06.16-20.45.45:240][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
-[2019.06.16-20.45.45:249][631]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.16-20.45.45:261][631]LogInit: FAudioDevice initialized.
-[2019.06.16-20.45.45:294][631]LogLoad: Game class is 'BatteryCollectorGameMode'
-[2019.06.16-20.45.45:298][631]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2019.06.16-22.45.45
-[2019.06.16-20.45.45:299][631]LogWorld: Bringing up level for play took: 0.003825
-[2019.06.16-20.45.45:316][631]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel -0.286
-[2019.06.16-20.45.45:319][631]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.45.46:239][686]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.45.46:239][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-20.45.46:270][686]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.06.16-20.45.46:270][686]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.45.46:301][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-20.45.46:305][686]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
-[2019.06.16-20.45.46:350][689]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2019.06.16-20.45.48:400][811]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.45.48:400][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.06.16-20.45.48:400][811]PIE: New page: PIE session: CollectionLevel (17 Jun 2019 00:45:48)
-[2019.06.16-20.45.48:401][811]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
-[2019.06.16-20.45.48:403][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002797s)
-[2019.06.16-20.45.48:404][811]LogAIModule: Creating AISystem for world CollectionLevel
-[2019.06.16-20.45.48:404][811]LogPlayLevel: PIE: World Init took: (0.000672s)
-[2019.06.16-20.45.48:404][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.003584s)
-[2019.06.16-20.45.48:433][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
-[2019.06.16-20.45.48:441][811]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.16-20.45.48:453][811]LogInit: FAudioDevice initialized.
-[2019.06.16-20.45.48:480][811]LogLoad: Game class is 'BatteryCollectorGameMode'
-[2019.06.16-20.45.48:481][811]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2019.06.16-22.45.48
-[2019.06.16-20.45.48:482][811]LogWorld: Bringing up level for play took: 0.001107
-[2019.06.16-20.45.48:494][811]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.893
-[2019.06.16-20.45.48:495][811]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.45.55:182][211]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.45.55:182][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-20.45.55:207][211]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.06.16-20.45.55:208][211]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.45.55:238][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-20.45.55:242][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
-[2019.06.16-20.45.55:294][214]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2019.06.16-20.45.58:004][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.16-20.45.58:094][381]Candidate modules for hot reload:
-[2019.06.16-20.45.58:094][381]  BatteryCollector
-[2019.06.16-20.45.58:094][381]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,7336 Win64 Development -TargetType=Editor -Project="C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/BatteryCollector.uproject" "C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
-[2019.06.16-20.45.58:096][381]Warning: Starting HotReload took  0.0s.
-[2019.06.16-20.46.07:395][558]CompilerResultsLog: New page: Compilation - 17 Jun 2019 00:46:07
-[2019.06.16-20.46.07:395][558]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hiszp\Documents\unrealTutorials).
-[2019.06.16-20.46.07:395][558]CompilerResultsLog: Creating makefile for BatteryCollectorEditor (ini files are newer than makefile)
-[2019.06.16-20.46.07:395][558]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
-[2019.06.16-20.46.07:395][558]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\BatteryCollector.uproject" "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.06.16-20.46.07:395][558]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 5.8910299 seconds
-[2019.06.16-20.46.07:395][558]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.06.16-20.46.07:395][558]CompilerResultsLog: Building 3 actions with 12 processes...
-[2019.06.16-20.46.07:395][558]CompilerResultsLog:   [1/3] UE4Editor-BatteryCollector-7336.lib
-[2019.06.16-20.46.07:395][558]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-7336.lib and object C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-7336.exp
-[2019.06.16-20.46.07:395][558]CompilerResultsLog:   [2/3] UE4Editor-BatteryCollector-7336.dll
-[2019.06.16-20.46.07:395][558]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-7336.suppressed.lib and object C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-7336.suppressed.exp
-[2019.06.16-20.46.07:395][558]CompilerResultsLog:   [3/3] BatteryCollectorEditor.target
-[2019.06.16-20.46.07:395][558]CompilerResultsLog: Total time in Parallel executor: 1.29 seconds
-[2019.06.16-20.46.07:395][558]CompilerResultsLog: Total execution time: 8.94 seconds
-[2019.06.16-20.46.07:395][558]LogMainFrame: MainFrame: Module compiling took 9.303 seconds
-[2019.06.16-20.46.07:424][558]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
-[2019.06.16-20.46.07:424][558]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (unloaded)
-[2019.06.16-20.46.07:469][558]LogHotReload: Re-instancing SpawnVolume after hot-reload.
-[2019.06.16-20.46.07:611][558]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (loaded)
-[2019.06.16-20.46.07:611][558]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0006 seconds. Added 5 classes and 2 folders.
-[2019.06.16-20.46.07:616][558]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
-[2019.06.16-20.46.07:683][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
-[2019.06.16-20.46.07:683][558]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.06.16-20.46.07:703][558]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2738 classes and 663 folders.
-[2019.06.16-20.46.07:703][558]Display: HotReload took  9.6s.
-[2019.06.16-20.46.10:735][567]LogTemp: Repeating last play command: Selected Viewport
-[2019.06.16-20.46.10:750][567]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.46.10:750][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.06.16-20.46.10:750][567]PIE: New page: PIE session: CollectionLevel (17 Jun 2019 00:46:10)
-[2019.06.16-20.46.10:750][567]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
-[2019.06.16-20.46.10:753][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003097s)
-[2019.06.16-20.46.10:754][567]LogAIModule: Creating AISystem for world CollectionLevel
-[2019.06.16-20.46.10:754][567]LogPlayLevel: PIE: World Init took: (0.001275s)
-[2019.06.16-20.46.10:754][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.004585s)
-[2019.06.16-20.46.10:833][567]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
-[2019.06.16-20.46.10:845][567]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.16-20.46.10:861][567]LogInit: FAudioDevice initialized.
-[2019.06.16-20.46.10:893][567]LogLoad: Game class is 'BatteryCollectorGameMode'
-[2019.06.16-20.46.10:895][567]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2019.06.16-22.46.10
-[2019.06.16-20.46.10:895][567]LogWorld: Bringing up level for play took: 0.001279
-[2019.06.16-20.46.10:910][567]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel -0.692
-[2019.06.16-20.46.10:910][567]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.46.16:262][888]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.46.16:263][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-20.46.16:294][888]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.06.16-20.46.16:294][888]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.46.16:337][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-20.46.16:356][888]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
-[2019.06.16-20.46.16:382][889]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2019.06.16-20.46.26:270][966]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.06.16-20.46.31:171][258]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.06.16-20.49.29:241][839]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.06.16-20.49.30:338][892]Candidate modules for hot reload:
-[2019.06.16-20.49.30:338][892]  BatteryCollector
-[2019.06.16-20.49.30:338][892]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BatteryCollector,3294 Win64 Development -TargetType=Editor -Project="C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/BatteryCollector.uproject" "C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/BatteryCollector.uproject"  -IgnoreJunk]
-[2019.06.16-20.49.30:340][892]Warning: Starting HotReload took  0.0s.
-[2019.06.16-20.49.39:581][446]CompilerResultsLog: New page: Compilation - 17 Jun 2019 00:49:39
-[2019.06.16-20.49.39:581][446]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\hiszp\Documents\unrealTutorials).
-[2019.06.16-20.49.39:581][446]CompilerResultsLog: Creating makefile for BatteryCollectorEditor (ini files are newer than makefile)
-[2019.06.16-20.49.39:581][446]CompilerResultsLog: Parsing headers for BatteryCollectorEditor
-[2019.06.16-20.49.39:581][446]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\BatteryCollector.uproject" "C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\BatteryCollectorEditor\Development\BatteryCollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.06.16-20.49.39:581][446]CompilerResultsLog: Reflection code generated for BatteryCollectorEditor in 5.5228885 seconds
-[2019.06.16-20.49.39:581][446]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.06.16-20.49.39:581][446]CompilerResultsLog: Building 4 actions with 12 processes...
-[2019.06.16-20.49.39:581][446]CompilerResultsLog:   [1/4] SpawnVolume.cpp
-[2019.06.16-20.49.39:581][446]CompilerResultsLog:   [2/4] UE4Editor-BatteryCollector-3294.lib
-[2019.06.16-20.49.39:581][446]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-3294.lib and object C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-3294.exp
-[2019.06.16-20.49.39:581][446]CompilerResultsLog:   [3/4] UE4Editor-BatteryCollector-3294.dll
-[2019.06.16-20.49.39:581][446]CompilerResultsLog:      Creating library C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-3294.suppressed.lib and object C:\Users\hiszp\Documents\unrealTutorials\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\UE4Editor-BatteryCollector-3294.suppressed.exp
-[2019.06.16-20.49.39:581][446]CompilerResultsLog:   [4/4] BatteryCollectorEditor.target
-[2019.06.16-20.49.39:581][446]CompilerResultsLog: Total time in Parallel executor: 1.87 seconds
-[2019.06.16-20.49.39:581][446]CompilerResultsLog: Total execution time: 9.17 seconds
-[2019.06.16-20.49.39:581][446]LogMainFrame: MainFrame: Module compiling took 9.246 seconds
-[2019.06.16-20.49.39:607][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
-[2019.06.16-20.49.39:607][446]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (unloaded)
-[2019.06.16-20.49.39:633][446]LogHotReload: Re-instancing SpawnVolume after hot-reload.
-[2019.06.16-20.49.39:743][446]LogBlueprintActionDatabase: Requesting refresh due to module change: BatteryCollector (loaded)
-[2019.06.16-20.49.39:743][446]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0003 seconds. Added 5 classes and 2 folders.
-[2019.06.16-20.49.39:747][446]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
-[2019.06.16-20.49.39:795][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
-[2019.06.16-20.49.39:795][446]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.06.16-20.49.39:809][446]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2738 classes and 663 folders.
-[2019.06.16-20.49.39:809][446]Display: HotReload took  9.5s.
-[2019.06.16-20.49.42:192][575]LogTemp: Repeating last play command: Selected Viewport
-[2019.06.16-20.49.42:204][575]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.49.42:204][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.06.16-20.49.42:204][575]PIE: New page: PIE session: CollectionLevel (17 Jun 2019 00:49:42)
-[2019.06.16-20.49.42:204][575]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
-[2019.06.16-20.49.42:208][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003656s)
-[2019.06.16-20.49.42:208][575]LogAIModule: Creating AISystem for world CollectionLevel
-[2019.06.16-20.49.42:209][575]LogPlayLevel: PIE: World Init took: (0.000706s)
-[2019.06.16-20.49.42:209][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.004476s)
-[2019.06.16-20.49.42:269][575]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
-[2019.06.16-20.49.42:279][575]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.06.16-20.49.42:291][575]LogInit: FAudioDevice initialized.
-[2019.06.16-20.49.42:319][575]LogLoad: Game class is 'BatteryCollectorGameMode'
-[2019.06.16-20.49.42:320][575]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2019.06.16-22.49.42
-[2019.06.16-20.49.42:321][575]LogWorld: Bringing up level for play took: 0.001079
-[2019.06.16-20.49.42:334][575]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.732
-[2019.06.16-20.49.42:334][575]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.49.59:593][608]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.49.59:593][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-20.49.59:622][608]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.06.16-20.49.59:622][608]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
-[2019.06.16-20.49.59:650][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.16-20.49.59:654][608]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
-[2019.06.16-20.49.59:707][611]LogPlayLevel: Display: Destroying online subsystem :Context_19
-[2019.06.16-20.50.00:977][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.27-19.57.56:792][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.06.27-19.57.56:792][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.06.27-19.57.56:792][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Engine.ini]
+[2019.06.27-19.57.56:792][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.06.27-19.57.56:792][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Engine.ini]
+[2019.06.27-19.57.56:792][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Engine.ini]
+[2019.06.27-19.57.56:792][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.06.27-19.57.56:792][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.06.27-19.57.56:792][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.06.27-19.57.56:792][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.06.27-19.57.56:792][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.06.27-19.57.56:792][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.06.27-19.57.56:792][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Engine.ini]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.06.27-19.57.56:793][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Engine.ini]
+[2019.06.27-19.57.56:793][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Engine.ini]
+[2019.06.27-19.57.56:797][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.27-19.57.56:797][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.27-19.57.56:797][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.27-19.57.56:797][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.27-19.57.56:798][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.27-19.57.56:799][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.27-19.57.56:799][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.27-19.57.56:799][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.27-19.57.56:799][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.27-19.57.56:799][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.27-19.57.56:799][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.06.27-19.57.56:799][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.27-19.57.56:799][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.27-19.57.56:799][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.27-19.57.56:799][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.27-19.57.56:817][  0]LogHAL: Display: Platform has ~ 16 GB [17053306880 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.06.27-19.57.56:817][  0]LogInit: Going up to parent DeviceProfile []
+[2019.06.27-19.57.56:817][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.27-19.57.56:817][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Scalability.ini]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.06.27-19.57.56:818][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Config/Windows/Engine.ini]
+[2019.06.27-19.57.56:819][  0]LogInit: Computer: LAPTOP-N6DQ3EP4
+[2019.06.27-19.57.56:819][  0]LogInit: User: hiszp
+[2019.06.27-19.57.56:819][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.06.27-19.57.56:819][  0]LogInit: High frequency timer resolution =2.156251 MHz
+[2019.06.27-19.57.56:819][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.06.27-19.57.56:819][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.27-19.57.56:819][  0]LogMemory: Process Physical Memory: 96.99 MB used, 96.99 MB peak
+[2019.06.27-19.57.56:819][  0]LogMemory: Process Virtual Memory: 90.04 MB used, 90.04 MB peak
+[2019.06.27-19.57.56:819][  0]LogMemory: Physical Memory: 8565.73 MB used,  7697.57 MB free, 16263.30 MB total
+[2019.06.27-19.57.56:819][  0]LogMemory: Virtual Memory: 4672.63 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.06.27-19.57.56:843][  0]LogInit: Using OS detected language (en-GB).
+[2019.06.27-19.57.56:843][  0]LogInit: Using OS detected locale (en-GB).
+[2019.06.27-19.57.56:844][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.06.27-19.57.56:995][  0]LogInit: Setting process to per monitor DPI aware
+[2019.06.27-19.57.57:024][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.27-19.57.57:024][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.27-19.57.57:195][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.27-19.57.57:195][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.27-19.57.57:275][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.06.27-19.57.57:275][  0]LogD3D11RHI:       4018/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.06.27-19.57.57:288][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.06.27-19.57.57:288][  0]LogD3D11RHI:       128/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.06.27-19.57.57:290][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.27-19.57.57:290][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.27-19.57.57:290][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.27-19.57.57:299][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.27-19.57.57:299][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2019.06.27-19.57.57:299][  0]LogWindows: EnumDisplayDevices:
+[2019.06.27-19.57.57:299][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2019.06.27-19.57.57:300][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.06.27-19.57.57:300][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.06.27-19.57.57:300][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.06.27-19.57.57:301][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.06.27-19.57.57:301][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.06.27-19.57.57:301][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.06.27-19.57.57:301][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.06.27-19.57.57:301][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.06.27-19.57.57:301][  0]LogD3D11RHI:   Driver Version: 430.86 (internal:26.21.14.3086, unified:430.86)
+[2019.06.27-19.57.57:301][  0]LogD3D11RHI:      Driver Date: 5-22-2019
+[2019.06.27-19.57.57:301][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.06.27-19.57.57:352][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.27-19.57.57:356][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.27-19.57.57:356][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.27-19.57.57:356][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.27-19.57.57:365][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.06.27-19.57.57:680][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.06.27-19.57.57:693][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.06.27-19.57.57:707][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.06.27-19.57.57:720][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.06.27-19.57.57:732][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.06.27-19.57.57:744][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.06.27-19.57.57:758][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.06.27-19.57.57:773][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.06.27-19.57.57:779][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.06.27-19.57.57:852][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.06.27-19.57.57:853][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.06.27-19.57.57:855][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.06.27-19.57.57:904][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.06.27-19.57.57:904][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.06.27-19.57.57:924][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.06.27-19.57.57:924][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.06.27-19.57.57:935][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.06.27-19.57.57:946][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.06.27-19.57.57:960][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.06.27-19.57.57:974][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.06.27-19.57.58:022][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.06.27-19.57.58:022][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.06.27-19.57.58:022][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.27-19.57.58:034][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.06.27-19.57.58:081][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Intermediate/Shaders/WorkingDirectory/13756/).
+[2019.06.27-19.57.58:081][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hiszp/AppData/Local/Temp/UnrealShaderWorkingDir/479BA3CB49D251F47501039FA7F12742/'.
+[2019.06.27-19.57.58:083][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.27-19.57.58:083][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.27-19.57.58:083][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.27-19.57.58:582][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.27-19.57.58:639][  0]LogDerivedDataCache: Loaded boot cache 0.06s 75MB C:/Users/hiszp/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.06.27-19.57.58:639][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hiszp/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.06.27-19.57.58:639][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.27-19.57.58:639][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.27-19.57.58:639][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.27-19.57.58:639][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.27-19.57.58:650][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.27-19.57.58:650][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.27-19.57.58:650][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.06.27-19.57.58:662][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hiszp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.27-19.57.58:662][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.27-19.57.58:662][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.27-19.57.58:681][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.27-19.57.58:683][  0]LogSlate: Using FreeType 2.6.0
+[2019.06.27-19.57.58:683][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.27-19.57.58:765][  0]LogAssetRegistry: FAssetRegistry took 0.0318 seconds to start up
+[2019.06.27-19.57.59:065][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.27-19.57.59:182][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.27-19.57.59:182][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.06.27-19.57.59:182][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.06.27-19.57.59:182][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.06.27-19.57.59:182][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.06.27-19.57.59:191][  0]LogNetVersion: BatteryCollector 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2114802313)
+[2019.06.27-19.57.59:557][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.052187 seconds
+[2019.06.27-19.57.59:563][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.06.27-19.57.59:563][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.06.27-19.57.59:563][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.27-19.58.00:364][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.27-19.58.00:377][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.27-19.58.00:804][  0]SourceControl: Source control is disabled
+[2019.06.27-19.58.00:804][  0]SourceControl: Source control is disabled
+[2019.06.27-19.58.00:806][  0]SourceControl: Source control is disabled
+[2019.06.27-19.58.00:807][  0]SourceControl: Source control is disabled
+[2019.06.27-19.58.00:907][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.27-19.58.00:986][  0]LogOcInput: OculusInput pre-init called
+[2019.06.27-19.58.01:576][  0]LogEngine: Initializing Engine...
+[2019.06.27-19.58.01:577][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.27-19.58.01:578][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.06.27-19.58.01:764][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.06.27-19.58.01:788][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.27-19.58.01:803][  0]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.27-19.58.01:820][  0]LogInit: FAudioDevice initialized.
+[2019.06.27-19.58.01:821][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.06.27-19.58.01:866][  0]LogDerivedDataCache: Saved boot cache 0.05s 75MB C:/Users/hiszp/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.06.27-19.58.01:885][  0]LogInit: Texture streaming: Enabled
+[2019.06.27-19.58.01:901][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.27-19.58.01:922][  0]LogInit: Transaction tracking system initialized
+[2019.06.27-19.58.01:945][  0]BlueprintLog: New page: Editor Load
+[2019.06.27-19.58.02:017][  0]LocalizationService: Localization service is disabled
+[2019.06.27-19.58.02:303][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/' took 0.02s
+[2019.06.27-19.58.02:303][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.27-19.58.02:303][  0]LogCook: Display: Mobile HDR setting 1
+[2019.06.27-19.58.02:452][  0]SourceControl: Source control is disabled
+[2019.06.27-19.58.02:453][  0]Cmd: MAP LOAD FILE="../../../../../../Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Maps/CollectionLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.27-19.58.02:462][  0]LightingResults: New page: Lighting Build
+[2019.06.27-19.58.02:465][  0]MapCheck: New page: Map Check
+[2019.06.27-19.58.02:465][  0]LightingResults: New page: Lighting Build
+[2019.06.27-19.58.02:491][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2019.06.27-19.58.03:373][  0]LogAIModule: Creating AISystem for world CollectionLevel
+[2019.06.27-19.58.03:382][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.27-19.58.03:412][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2019.06.27-19.58.03:413][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.27-19.58.03:413][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.14ms to complete.
+[2019.06.27-19.58.03:413][  0]LogFileHelpers: Loading map 'CollectionLevel' took 0.961
+[2019.06.27-19.58.03:548][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.27-19.58.03:556][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.27-19.58.03:563][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.27-19.58.03:569][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.27-19.58.03:582][  0]LogCollectionManager: Loaded 0 collections in 0.002318 seconds
+[2019.06.27-19.58.03:611][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Saved/Collections/' took 0.01s
+[2019.06.27-19.58.03:611][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Developers/hiszp/Collections/' took 0.00s
+[2019.06.27-19.58.03:611][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hiszp/Documents/unrealTutorials/BatteryCollector/Content/Collections/' took 0.00s
+[2019.06.27-19.58.03:611][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.06.27-19.58.03:621][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2737 classes and 661 folders.
+[2019.06.27-19.58.03:633][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.27-19.58.03:644][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:650][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:663][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:669][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:674][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:678][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:683][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:688][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:694][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:700][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:705][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:709][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:715][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:720][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:724][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:729][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:757][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:761][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:767][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:772][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:777][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:783][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:788][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:794][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:799][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:804][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.27-19.58.03:943][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.27-19.58.03:954][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.06.27-19.58.04:013][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.27-19.58.04:015][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.27-19.58.04:025][  0]LogSlate: Took 0.005790 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.27-19.58.04:134][  0]LogRenderer: Reallocating scene render targets to support 1128x600 Format 10 NumSamples 1 (Frame:1).
+[2019.06.27-19.58.04:250][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.27-19.58.04:250][  0]LogLoad: (Engine Initialization) Total time: 9.28 seconds
+[2019.06.27-19.58.04:250][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.27-19.58.04:269][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.06.27-19.58.04:290][  0]LogAssetRegistry: Asset discovery search completed in 5.5475 seconds
+[2019.06.27-19.58.04:293][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.06.27-19.58.04:293][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2019.06.27-19.58.04:295][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.06.27-19.58.04:342][  0]LogSlate: Took 0.004587 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.27-19.58.20:876][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.27-19.58.24:259][532]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.27-19.58.24:282][532]LogAssetEditorManager: Opening Asset editor for Class /Script/BatteryCollector.SpawnVolume
+[2019.06.27-20.11.20:702][222]LogHotReload: New module detected: UE4Editor-BatteryCollector-0015.dll
+[2019.06.27-20.11.21:724][226]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.27-20.11.21:766][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2019.06.27-20.11.21:781][226]LogClass: Could not find existing class BatteryPickup in package /Script/BatteryCollector for HotReload, assuming new class
+[2019.06.27-20.11.21:781][226]LogClass: Could not find existing class Pickup in package /Script/BatteryCollector for HotReload, assuming new class
+[2019.06.27-20.11.21:781][226]LogClass: Function IsActive is new.
+[2019.06.27-20.11.21:781][226]LogClass: Function SetActive is new.
+[2019.06.27-20.11.21:781][226]LogClass: Function WasCollected is new.
+[2019.06.27-20.11.21:789][226]LogHotReload: Re-instancing BatteryPickup after hot-reload.
+[2019.06.27-20.11.21:920][226]LogHotReload: Re-instancing Pickup after hot-reload.
+[2019.06.27-20.11.22:058][226]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2019.06.27-20.11.22:120][226]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2019.06.27-20.11.22:123][226]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.06.27-20.11.22:279][226]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2019.06.27-20.11.22:291][226]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2738 classes and 663 folders.
+[2019.06.27-20.11.22:296][226]Display: HotReload took  0.6s.
+[2019.06.27-20.16.12:233][ 92]LogHotReload: New module detected: UE4Editor-BatteryCollector-0016.dll
+[2019.06.27-20.16.13:932][ 98]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.27-20.16.13:975][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.06.27-20.16.14:012][ 98]LogClass: Could not find existing class BatteryCollectorCharacter in package /Script/BatteryCollector for HotReload, assuming new class
+[2019.06.27-20.16.14:060][ 98]LogHotReload: Re-instancing BatteryCollectorCharacter after hot-reload.
+[2019.06.27-20.16.14:210][ 98]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2019.06.27-20.16.14:306][ 98]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2019.06.27-20.16.14:309][ 98]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2019.06.27-20.16.14:373][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.06.27-20.16.14:391][ 98]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 2738 classes and 663 folders.
+[2019.06.27-20.16.14:394][ 98]Display: HotReload took  0.5s.
+[2019.06.27-20.27.39:380][144]LogHotReload: New module detected: UE4Editor-BatteryCollector-0017.dll
+[2019.06.27-20.27.40:742][149]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.27-20.27.40:776][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.06.27-20.27.40:804][149]LogClass: Could not find existing class BatteryCollectorCharacter in package /Script/BatteryCollector for HotReload, assuming new class
+[2019.06.27-20.27.40:804][149]LogClass: Function CollectPickups is new.
+[2019.06.27-20.27.40:816][149]LogHotReload: Re-instancing BatteryCollectorCharacter after hot-reload.
+[2019.06.27-20.27.40:893][149]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2019.06.27-20.27.40:970][149]LogContentBrowser: Native class hierarchy updated for 'BatteryCollector' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2019.06.27-20.27.40:973][149]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2019.06.27-20.27.41:022][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.06.27-20.27.41:036][149]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2738 classes and 663 folders.
+[2019.06.27-20.27.41:039][149]Display: HotReload took  0.3s.
+[2019.06.27-20.27.52:858][679]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.06.27-20.29.19:904][374]LogSlate: Window 'Project Settings' being destroyed
+[2019.06.27-20.29.19:909][374]LogSlate: Window 'Project Settings' being destroyed
+[2019.06.27-20.29.54:318][319]LogSlate: Took 0.005088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.06.27-20.30.06:348][808]LogEditorViewport: Clicking on Actor (LMB): BP_DemoRoom_C (BP_DemoRoom)
+[2019.06.27-20.30.07:172][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.27-20.30.07:206][855]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.27-20.30.07:224][855]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
+[2019.06.27-20.30.07:225][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.27-20.30.07:229][855]PIE: New page: PIE session: CollectionLevel (28 Jun 2019 00:30:07)
+[2019.06.27-20.30.07:246][855]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CollectionLevel
+[2019.06.27-20.30.07:254][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006548s)
+[2019.06.27-20.30.07:255][855]LogAIModule: Creating AISystem for world CollectionLevel
+[2019.06.27-20.30.07:255][855]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2019.06.27-20.30.07:255][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CollectionLevel.CollectionLevel to /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel (0.009049s)
+[2019.06.27-20.30.07:285][855]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2019.06.27-20.30.07:299][855]LogInit: XAudio2 using 'Głośniki (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.27-20.30.07:316][855]LogInit: FAudioDevice initialized.
+[2019.06.27-20.30.07:362][855]LogLoad: Game class is 'BatteryCollectorGameMode'
+[2019.06.27-20.30.07:370][855]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2019.06.27-22.30.07
+[2019.06.27-20.30.07:372][855]LogWorld: Bringing up level for play took: 0.003648
+[2019.06.27-20.30.07:403][855]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.06.27-20.30.07:429][855]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CollectionLevel 0.335
+[2019.06.27-20.30.07:429][855]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
+[2019.06.27-20.30.15:140][316]LogClass: You have collected Battery_BP_C_0
+[2019.06.27-20.30.16:525][399]LogClass: You have collected Battery_BP_C_3
+[2019.06.27-20.30.19:261][563]LogClass: You have collected Battery_BP_C_1
+[2019.06.27-20.30.19:261][563]LogClass: You have collected Battery_BP_C_6
+[2019.06.27-20.30.19:261][563]LogClass: You have collected Battery_BP_C_2
+[2019.06.27-20.30.23:396][811]LogClass: You have collected Pickup_BP_C_0
+[2019.06.27-20.30.28:296][105]LogClass: You have collected Pickup_BP_C_1
+[2019.06.27-20.30.38:914][742]LogClass: You have collected Battery_BP_C_11
+[2019.06.27-20.30.38:915][742]LogClass: You have collected Battery_BP_C_13
+[2019.06.27-20.30.38:915][742]LogClass: You have collected Battery_BP_C_12
+[2019.06.27-20.30.38:915][742]LogClass: You have collected Battery_BP_C_19
+[2019.06.27-20.30.38:915][742]LogClass: You have collected Battery_BP_C_8
+[2019.06.27-20.30.38:915][742]LogClass: You have collected Battery_BP_C_7
+[2019.06.27-20.30.38:915][742]LogClass: You have collected Battery_BP_C_16
+[2019.06.27-20.30.38:915][742]LogClass: You have collected Battery_BP_C_10
+[2019.06.27-20.30.40:215][820]LogClass: You have collected Battery_BP_C_17
+[2019.06.27-20.30.40:215][820]LogClass: You have collected Battery_BP_C_18
+[2019.06.27-20.30.40:215][820]LogClass: You have collected Battery_BP_C_5
+[2019.06.27-20.30.41:367][889]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
+[2019.06.27-20.30.41:368][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.27-20.30.41:397][889]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.27-20.30.41:398][889]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel' with GeneratedClass '/Game/Maps/CollectionLevel.CollectionLevel_C' with ClassGeneratedBy '/Game/Maps/CollectionLevel.CollectionLevel:PersistentLevel.CollectionLevel'
+[2019.06.27-20.30.41:428][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.27-20.30.41:434][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2019.06.27-20.30.41:473][891]LogPlayLevel: Display: Destroying online subsystem :Context_4

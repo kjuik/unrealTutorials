@@ -18,8 +18,13 @@ public:
 
 	UFUNCTION(BlueprintPure, Category = "Pickup")
 	bool IsActive();
+
 	UFUNCTION(BlueprintCallable, Category = "Pickup")
 	void SetActive(bool NewPickupState);
+
+	UFUNCTION(BlueprintNativeEvent)
+	void WasCollected();
+	virtual void WasCollected_Implementation();
 
 protected:
 	virtual void BeginPlay() override;
