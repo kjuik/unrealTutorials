@@ -18,4 +18,10 @@ public:
 	ABatteryPickup();
 
 	void WasCollected_Implementation() override;
+
+	float GetPower();
+
+protected:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Power", meta = (BlueprintProtected = "true"))
+	float BatteryPower;
 };
